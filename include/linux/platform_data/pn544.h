@@ -35,9 +35,9 @@
 #define PN544_MAGIC	0xe9
 
 enum {
-	NFC_GPIO_ENABLE,
+	NFC_GPIO_IRQ = 0,
 	NFC_GPIO_FW_RESET,
-	NFC_GPIO_IRQ 
+	NFC_GPIO_ENABLE
 };
 
 /* board config */

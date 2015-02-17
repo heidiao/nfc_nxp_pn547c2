@@ -589,6 +589,8 @@ static const struct acpi_device_id pn544_acpi_match[] = {
 	/* NFC NXP PN544 */
 	{ "NXP5442", 0 },
 
+    /* NFC NXP for mapping BIOS acpi table*/
+    { "NXP1002", 0 },
 	{ },
 };
 
