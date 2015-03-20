@@ -1,0 +1,1263 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AppData	common/phNfcTypes.h	/^    uint8_t         AppData[PHNFC_MAX_ATR_LENGTH];  \/* Application data information of the$/;"	m	struct:phNfc_sIso14443AInfo
+AppDataLength	common/phNfcTypes.h	/^    uint8_t         AppDataLength;                  \/* Application data length *\/$/;"	m	struct:phNfc_sIso14443AInfo
+Application_callback	common/phNfcCommon.h	/^    pphOsalNfc_TimerCallbck_t   Application_callback;   \/* Timer callback function to be invoked *\/$/;"	m	struct:phOsalNfc_TimerHandle
+AtqA	common/phNfcTypes.h	/^    uint8_t         AtqA[PHNFC_ATQA_LENGTH];        \/* ATQA informationof the TYPE A$/;"	m	struct:phNfc_sIso14443AInfo
+Blocklist	common/phNfcTypes.h	/^    uint16_t *Blocklist;                        \/* 2 Byte Block list *\/$/;"	m	struct:phNfc_sTransceiveInfo
+Bprime	common/phNfcTypes.h	/^    unsigned int Bprime      : 1;   \/* Protocol BPrime Tag*\/$/;"	m	struct:phNfc_sSupProtocol
+CID_FRI_NFC_AUTO_DEV_DIS	common/phNfcCompId.h	51;"	d
+CID_FRI_NFC_LLCP	common/phNfcCompId.h	55;"	d
+CID_FRI_NFC_LLCP_MAC	common/phNfcCompId.h	57;"	d
+CID_FRI_NFC_LLCP_TRANSPORT	common/phNfcCompId.h	56;"	d
+CID_FRI_NFC_NDEF_MAP	common/phNfcCompId.h	49;"	d
+CID_FRI_NFC_NDEF_RECORD	common/phNfcCompId.h	48;"	d
+CID_FRI_NFC_NDEF_REGISTRY	common/phNfcCompId.h	50;"	d
+CID_FRI_NFC_NDEF_SMTCRDFMT	common/phNfcCompId.h	52;"	d
+CID_FRI_NFC_OVR_HAL	common/phNfcCompId.h	47;"	d
+CID_MAX_VALUE	common/phNfcCompId.h	54;"	d
+CID_NFC_DNLD	common/phNfcCompId.h	44;"	d
+CID_NFC_HAL	common/phNfcCompId.h	45;"	d
+CID_NFC_LIB	common/phNfcCompId.h	53;"	d
+CID_NFC_LLC	common/phNfcCompId.h	42;"	d
+CID_NFC_NCI	common/phNfcCompId.h	43;"	d
+CID_NFC_NONE	common/phNfcCompId.h	40;"	d
+CID_NFC_OSAL	common/phNfcCompId.h	46;"	d
+CID_NFC_TML	common/phNfcCompId.h	41;"	d
+CLEAN_UP_TIMEOUT	hal/phNxpNciHal_NfcDepSWPrio.c	22;"	d
+CLEAR_PIPE_RSP	hal/phNxpNciHal_NfcDepSWPrio.h	27;"	d
+CLK_FREQ_13MHZ	common/phNfcCommon.h	71;"	d
+CLK_FREQ_19_2MHZ	common/phNfcCommon.h	72;"	d
+CLK_FREQ_24MHZ	common/phNfcCommon.h	73;"	d
+CLK_FREQ_26MHZ	common/phNfcCommon.h	74;"	d
+CLK_FREQ_38_4MHZ	common/phNfcCommon.h	75;"	d
+CLK_FREQ_52MHZ	common/phNfcCommon.h	76;"	d
+CLK_FREQ_UNDEF	common/phNfcCommon.h	70;"	d
+CLK_SRC_PADDIRECT	common/phNfcCommon.h	58;"	d
+CLK_SRC_PLL	common/phNfcCommon.h	57;"	d
+CLK_SRC_UNDEF	common/phNfcCommon.h	55;"	d
+CLK_SRC_XTAL	common/phNfcCommon.h	56;"	d
+CLK_TO_CFG_DEF	common/phNfcCommon.h	80;"	d
+CLK_TO_CFG_MAX	common/phNfcCommon.h	81;"	d
+CNfcConfig	utils/phNxpConfig.cpp	/^CNfcConfig::CNfcConfig() :$/;"	f	class:CNfcConfig
+CNfcConfig	utils/phNxpConfig.cpp	/^class CNfcConfig : public vector<const CNfcParam*>$/;"	c
+CNfcParam	utils/phNxpConfig.cpp	/^CNfcParam::CNfcParam() :$/;"	f	class:CNfcParam
+CNfcParam	utils/phNxpConfig.cpp	/^CNfcParam::CNfcParam(const char* name,  const string& value) :$/;"	f	class:CNfcParam
+CNfcParam	utils/phNxpConfig.cpp	/^CNfcParam::CNfcParam(const char* name,  unsigned long value) :$/;"	f	class:CNfcParam
+CNfcParam	utils/phNxpConfig.cpp	/^class CNfcParam : public string$/;"	c
+CONCURRENCY_LOCK	utils/phNxpNciHal_utils.h	99;"	d
+CONCURRENCY_UNLOCK	utils/phNxpNciHal_utils.h	100;"	d
+CORE_RES_STATUS_BYTE	hal/phNxpNciHal.c	32;"	d
+CRC_LEN	tml/phTmlNfc_i2c.c	39;"	d
+CUSTOM_POLL_TIMEOUT	hal/phNxpNciHal_NfcDepSWPrio.c	21;"	d
+DISCOVER_SELECT	hal/phNxpNciHal_NfcDepSWPrio.h	26;"	d
+Desfire	common/phNfcTypes.h	/^    unsigned int Desfire     : 1;  \/*TRUE indicates specified feature (mapping$/;"	m	struct:phNfc_sSupProtocol
+EEPROM_Read_Mem_IMP	dnld/phDnldNfc.c	34;"	d
+EMV_CO_PROFILE	hal/phNxpNciHal.h	/^    EMV_CO_PROFILE,$/;"	e	enum:__anon11
+ENABLE_EXTNS_TRACES	log/phNxpLog.h	37;"	d
+ENABLE_FWDNLD_TRACES	log/phNxpLog.h	40;"	d
+ENABLE_HAL_TRACES	log/phNxpLog.h	38;"	d
+ENABLE_HCPR_TRACES	log/phNxpLog.h	45;"	d
+ENABLE_HCPX_TRACES	log/phNxpLog.h	44;"	d
+ENABLE_NCIR_TRACES	log/phNxpLog.h	42;"	d
+ENABLE_NCIX_TRACES	log/phNxpLog.h	41;"	d
+ENABLE_TML_TRACES	log/phNxpLog.h	39;"	d
+ENUM_LINK_TYPE_COM1	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_COM1,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_COM2	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_COM2,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_COM3	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_COM3,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_COM4	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_COM4,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_COM5	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_COM5,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_COM6	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_COM6,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_COM7	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_COM7,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_COM8	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_COM8,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_I2C	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_I2C,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_NB	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_NB$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_SPI	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_SPI,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_TCP	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_TCP,$/;"	e	enum:__anon13
+ENUM_LINK_TYPE_USB	common/phNfcTypes.h	/^   ENUM_LINK_TYPE_USB,$/;"	e	enum:__anon13
+EPCGEN2	common/phNfcTypes.h	/^    unsigned int EPCGEN2     : 1;   \/* Protocol EPCGEN2 Tag*\/$/;"	m	struct:phNfc_sSupProtocol
+EnableP2P_PrioLogic	hal/phNxpNciHal_ext.c	/^uint8_t EnableP2P_PrioLogic = FALSE;$/;"	v
+FALSE	common/phNfcTypes.h	30;"	d
+FRAGMENTSIZE_MAX	tml/phTmlNfc_i2c.c	44;"	d
+FW_DLL_EXTENSION	common/phNfcCommon.h	37;"	d
+FW_DLL_ROOT_DIR	common/phNfcCommon.h	36;"	d
+FW_DNLD_HEADER_LEN	tml/phTmlNfc_i2c.c	41;"	d
+FW_DNLD_LEN_OFFSET	tml/phTmlNfc_i2c.c	42;"	d
+FW_LIB_PATH	common/phNfcCommon.h	39;"	d
+Felica	common/phNfcTypes.h	/^    unsigned int Felica      : 1;  \/* Protocol Felica. *\/$/;"	m	struct:phNfc_sSupProtocol
+FrameInp	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_FrameInput_t  FrameInp;              \/* input value required for current cmd in process *\/$/;"	m	struct:phDnldNfc_DlContext
+Fwi_Sfgt	common/phNfcTypes.h	/^    uint8_t         Fwi_Sfgt;                       \/* Frame waiting time and start up$/;"	m	struct:phNfc_sIso14443AInfo
+GetInstance	utils/phNxpConfig.cpp	/^CNfcConfig& CNfcConfig::GetInstance()$/;"	f	class:CNfcConfig
+GetNxpByteArrayValue	utils/phNxpConfig.cpp	/^extern "C" int GetNxpByteArrayValue(const char* name, char* pValue,long bufflen, long *len)$/;"	f
+GetNxpNumValue	utils/phNxpConfig.cpp	/^extern "C" int GetNxpNumValue(const char* name, void* pValue, unsigned long len)$/;"	f
+GetNxpStrValue	utils/phNxpConfig.cpp	/^extern "C" int GetNxpStrValue(const char* name, char* pValue, unsigned long len)$/;"	f
+HAL_DISABLE_EXT	hal/phNxpNciHal.h	45;"	d
+HAL_ENABLE_EXT	hal/phNxpNciHal.h	44;"	d
+HAL_EXTNS_WRITE_RSP_TIMEOUT	hal/phNxpNciHal_ext.c	25;"	d
+HAL_MODULE_INFO_SYM	nfc_nci.c	/^struct nfc_nci_module_t HAL_MODULE_INFO_SYM =$/;"	v	typeref:struct:nfc_nci_module_t
+HAL_NFC_ENABLE_I2C_FRAGMENTATION_EVT	hal/phNxpNciHal.h	26;"	d
+HAL_STATUS_CLOSE	hal/phNxpNciHal.h	/^   HAL_STATUS_CLOSE$/;"	e	enum:__anon10
+HAL_STATUS_OPEN	hal/phNxpNciHal.h	/^   HAL_STATUS_OPEN = 0,$/;"	e	enum:__anon10
+HAL_SUFFIX	Android.mk	/^	HAL_SUFFIX := herring$/;"	m
+HAL_SUFFIX	Android.mk	/^HAL_SUFFIX := $(TARGET_DEVICE)$/;"	m
+HAL_WRITE_MAX_RETRY	self-test/phNxpNciHal_SelfTest.c	26;"	d
+HAL_WRITE_RSP_TIMEOUT	self-test/phNxpNciHal_SelfTest.c	25;"	d
+HID	common/phNfcTypes.h	/^    unsigned int HID         : 1;   \/* Protocol HID(Picopass) Tag*\/$/;"	m	struct:phNfc_sSupProtocol
+I2C_FRAGMENATATION_DISABLED	tml/phTmlNfc.h	/^    I2C_FRAGMENATATION_DISABLED,     \/*i2c fragmentation_enabled           *\/$/;"	e	enum:__anon6
+I2C_FRAGMENTATION_ENABLED	tml/phTmlNfc.h	/^    I2C_FRAGMENTATION_ENABLED      \/*i2c_fragmentation_disabled          *\/$/;"	e	enum:__anon6
+INVALID_PROFILe	hal/phNxpNciHal.h	/^    INVALID_PROFILe$/;"	e	enum:__anon11
+ISO14443_4A	common/phNfcTypes.h	/^    unsigned int ISO14443_4A : 1;  \/* Protocol ISO14443-4 Type A.  *\/$/;"	m	struct:phNfc_sSupProtocol
+ISO14443_4B	common/phNfcTypes.h	/^    unsigned int ISO14443_4B : 1;  \/* Protocol ISO14443-4 Type B.  *\/$/;"	m	struct:phNfc_sSupProtocol
+ISO15693	common/phNfcTypes.h	/^    unsigned int ISO15693    : 1;  \/* Protocol ISO15693 HiTag.  *\/$/;"	m	struct:phNfc_sSupProtocol
+IoctlCode	dnld/phNxpNciHal_Dnld.c	/^    uint16_t                     IoctlCode;      \/* Ioctl code*\/$/;"	m	struct:__anon1
+Is	utils/phNxpConfig.cpp	/^    inline bool Is(unsigned long f) {return (state & f) == f;}$/;"	f	class:CNfcConfig
+IsStringValue	utils/phNxpConfig.cpp	63;"	d
+Iso14443A_Info	common/phNfcTypes.h	/^    phNfc_sIso14443AInfo_t          Iso14443A_Info;\/* ISO1443A Remote device info *\/$/;"	m	union:phNfc_uRemoteDevInfo
+Jewel	common/phNfcTypes.h	/^    unsigned int Jewel       : 1;  \/* Protocol Innovision Jewel Tag. or Any T1T*\/$/;"	m	struct:phNfc_sSupProtocol
+KOVIO_ACT_NTF_TEMP_BUFF_LEN	hal/phNxpNciHal_Kovio.c	22;"	d
+KOVIO_TIMEOUT	hal/phNxpNciHal_Kovio.c	21;"	d
+Kovio	common/phNfcTypes.h	/^    unsigned int Kovio       : 1;   \/* Protocol Kovio Tag*\/$/;"	m	struct:phNfc_sSupProtocol
+LOCAL_ARM_MODE	Android.mk	/^LOCAL_ARM_MODE := arm$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := nfc_nci.pn54x.default$/;"	m
+LOCAL_MODULE_PATH	Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)\/hw$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PRELINK_MODULE	Android.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := liblog libcutils libhardware_legacy libdl libstlport$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := $(call all-c-files-under, .)  $(call all-cpp-files-under, .)$/;"	m
+LOG_TAG	nfc_nci.c	17;"	d
+MAX_FILE_SIZE	hal/phNxpNciHal.c	33;"	d
+MAX_RETRY_COUNT	hal/phNxpNciHal.h	23;"	d
+MAX_WRITE_RETRY	hal/phNxpNciHal_Kovio.c	24;"	d
+MAX_WRITE_RETRY	hal/phNxpNciHal_NfcDepSWPrio.c	23;"	d
+MAX_WRITE_RETRY_COUNT	tml/phTmlNfc.c	32;"	d
+MaxDataRate	common/phNfcTypes.h	/^    uint8_t         MaxDataRate;                    \/* Maximum data rate supported$/;"	m	struct:phNfc_sIso14443AInfo
+MfCmd	common/phNfcTypes.h	/^  phNfc_eMifareCmdList_t         MfCmd;  \/* Mifare command structure.  *\/$/;"	m	union:phNfc_uCommand
+MifareStd	common/phNfcTypes.h	/^    unsigned int MifareStd   : 1;  \/* Protocol Mifare Standard. *\/$/;"	m	struct:phNfc_sSupProtocol
+MifareUL	common/phNfcTypes.h	/^    unsigned int MifareUL    : 1;  \/* Protocol Mifare Ultra Light or any NFC Forum Type-2 tags *\/$/;"	m	struct:phNfc_sSupProtocol
+NAME_AID_MATCHING_PLATFORM	utils/phNxpConfig.h	86;"	d
+NAME_FW_STORAGE	utils/phNxpConfig.h	66;"	d
+NAME_MIFARE_READER_ENABLE	utils/phNxpConfig.h	65;"	d
+NAME_NXPLOG_EXTNS_LOGLEVEL	log/phNxpLog.h	48;"	d
+NAME_NXPLOG_EXTNS_LOGLEVEL	utils/phNxpConfig.h	58;"	d
+NAME_NXPLOG_FWDNLD_LOGLEVEL	log/phNxpLog.h	52;"	d
+NAME_NXPLOG_FWDNLD_LOGLEVEL	utils/phNxpConfig.h	62;"	d
+NAME_NXPLOG_HAL_LOGLEVEL	log/phNxpLog.h	49;"	d
+NAME_NXPLOG_NCIHAL_LOGLEVEL	utils/phNxpConfig.h	59;"	d
+NAME_NXPLOG_NCIR_LOGLEVEL	log/phNxpLog.h	51;"	d
+NAME_NXPLOG_NCIR_LOGLEVEL	utils/phNxpConfig.h	61;"	d
+NAME_NXPLOG_NCIX_LOGLEVEL	log/phNxpLog.h	50;"	d
+NAME_NXPLOG_NCIX_LOGLEVEL	utils/phNxpConfig.h	60;"	d
+NAME_NXPLOG_TML_LOGLEVEL	log/phNxpLog.h	53;"	d
+NAME_NXPLOG_TML_LOGLEVEL	utils/phNxpConfig.h	63;"	d
+NAME_NXP_ACT_PROP_EXTN	utils/phNxpConfig.h	71;"	d
+NAME_NXP_CORE_CONF	utils/phNxpConfig.h	79;"	d
+NAME_NXP_CORE_CONF_EXTN	utils/phNxpConfig.h	78;"	d
+NAME_NXP_CORE_MFCKEY_SETTING	utils/phNxpConfig.h	80;"	d
+NAME_NXP_CORE_RF_FIELD	utils/phNxpConfig.h	84;"	d
+NAME_NXP_CORE_STANDBY	utils/phNxpConfig.h	81;"	d
+NAME_NXP_FW_PROTECION_OVERRIDE	utils/phNxpConfig.h	67;"	d
+NAME_NXP_I2C_FRAGMENTATION_ENABLED	utils/phNxpConfig.h	85;"	d
+NAME_NXP_NFC_PROFILE_EXTN	utils/phNxpConfig.h	82;"	d
+NAME_NXP_RF_CONF_BLK_1	utils/phNxpConfig.h	72;"	d
+NAME_NXP_RF_CONF_BLK_2	utils/phNxpConfig.h	73;"	d
+NAME_NXP_RF_CONF_BLK_3	utils/phNxpConfig.h	74;"	d
+NAME_NXP_RF_CONF_BLK_4	utils/phNxpConfig.h	75;"	d
+NAME_NXP_RF_CONF_BLK_5	utils/phNxpConfig.h	76;"	d
+NAME_NXP_RF_CONF_BLK_6	utils/phNxpConfig.h	77;"	d
+NAME_NXP_SWP_FULL_PWR_ON	utils/phNxpConfig.h	83;"	d
+NAME_NXP_SYS_CLK_FREQ_SEL	utils/phNxpConfig.h	69;"	d
+NAME_NXP_SYS_CLK_SRC_SEL	utils/phNxpConfig.h	68;"	d
+NAME_NXP_SYS_CLOCK_TO_CFG	utils/phNxpConfig.h	70;"	d
+NCIHAL_CMD_CODE_BYTE_LEN	hal/phNxpNciHal.h	109;"	d
+NCIHAL_CMD_CODE_LEN_BYTE_OFFSET	hal/phNxpNciHal.h	108;"	d
+NCI_HAL_CLOSE_CPLT_MSG	hal/phNxpNciHal.h	102;"	d
+NCI_HAL_ERROR_MSG	hal/phNxpNciHal.h	105;"	d
+NCI_HAL_OPEN_CPLT_MSG	hal/phNxpNciHal.h	101;"	d
+NCI_HAL_POST_INIT_CPLT_MSG	hal/phNxpNciHal.h	103;"	d
+NCI_HAL_PRE_DISCOVER_CPLT_MSG	hal/phNxpNciHal.h	104;"	d
+NCI_HAL_RX_MSG	hal/phNxpNciHal.h	106;"	d
+NCI_MAX_DATA_LEN	hal/phNxpNciHal.h	24;"	d
+NCI_POLL_DURATION	hal/phNxpNciHal.h	25;"	d
+NFC	common/phNfcTypes.h	/^    unsigned int NFC         : 1;  \/* Protocol NFC. *\/$/;"	m	struct:phNfc_sSupProtocol
+NFCSTATUS	common/phNfcTypes.h	/^typedef uint16_t        NFCSTATUS;        \/* Return values *\/$/;"	t
+NFCSTATUS_ABORTED	common/phNfcStatus.h	335;"	d
+NFCSTATUS_ABORTED	dnld/phDnldNfc_Status.h	27;"	d
+NFCSTATUS_ABORT_FAILED	common/phNfcStatus.h	299;"	d
+NFCSTATUS_ACCESS_DENIED	common/phNfcStatus.h	289;"	d
+NFCSTATUS_ALREADY_CONNECTED	common/phNfcStatus.h	233;"	d
+NFCSTATUS_ALREADY_INITIALISED	common/phNfcStatus.h	141;"	d
+NFCSTATUS_ALREADY_REGISTERED	common/phNfcStatus.h	158;"	d
+NFCSTATUS_ANOTHER_DEVICE_CONNECTED	common/phNfcStatus.h	238;"	d
+NFCSTATUS_BOARD_COMMUNICATION_ERROR	common/phNfcStatus.h	124;"	d
+NFCSTATUS_BUFFER_TOO_SMALL	common/phNfcStatus.h	86;"	d
+NFCSTATUS_BUSY	common/phNfcStatus.h	187;"	d
+NFCSTATUS_CMD_ABORTED	common/phNfcStatus.h	268;"	d
+NFCSTATUS_COMMAND_NOT_SUPPORTED	common/phNfcStatus.h	340;"	d
+NFCSTATUS_CONNECTION_FAILED	common/phNfcStatus.h	365;"	d
+NFCSTATUS_CONNECTION_SUCCESS	common/phNfcStatus.h	360;"	d
+NFCSTATUS_CREDIT_TIMEOUT	common/phNfcStatus.h	223;"	d
+NFCSTATUS_DESELECTED	common/phNfcStatus.h	172;"	d
+NFCSTATUS_EOF_NDEF_CONTAINER_REACHED	common/phNfcStatus.h	207;"	d
+NFCSTATUS_EXTERNAL_RF_DETECTED	common/phNfcStatus.h	279;"	d
+NFCSTATUS_FAILED	common/phNfcStatus.h	263;"	d
+NFCSTATUS_FEATURE_NOT_SUPPORTED	common/phNfcStatus.h	147;"	d
+NFCSTATUS_FORMAT_ERROR	common/phNfcStatus.h	220;"	d
+NFCSTATUS_INCOMING_CONNECTION	common/phNfcStatus.h	355;"	d
+NFCSTATUS_INSUFFICIENT_RESOURCES	common/phNfcStatus.h	112;"	d
+NFCSTATUS_INSUFFICIENT_STORAGE	common/phNfcStatus.h	217;"	d
+NFCSTATUS_INVALID_DEVICE	common/phNfcStatus.h	91;"	d
+NFCSTATUS_INVALID_FORMAT	common/phNfcStatus.h	213;"	d
+NFCSTATUS_INVALID_HANDLE	common/phNfcStatus.h	330;"	d
+NFCSTATUS_INVALID_PARAMETER	common/phNfcStatus.h	81;"	d
+NFCSTATUS_INVALID_RECEIVE_LENGTH	common/phNfcStatus.h	210;"	d
+NFCSTATUS_INVALID_REMOTE_DEVICE	common/phNfcStatus.h	193;"	d
+NFCSTATUS_INVALID_STATE	common/phNfcStatus.h	129;"	d
+NFCSTATUS_MORE_INFORMATION	common/phNfcStatus.h	97;"	d
+NFCSTATUS_MSG_NOT_ALLOWED_BY_FSM	common/phNfcStatus.h	284;"	d
+NFCSTATUS_MULTIPLE_PROTOCOLS	common/phNfcStatus.h	162;"	d
+NFCSTATUS_MULTIPLE_TAGS	common/phNfcStatus.h	167;"	d
+NFCSTATUS_NODE_NOT_FOUND	common/phNfcStatus.h	292;"	d
+NFCSTATUS_NON_NDEF_COMPLIANT	common/phNfcStatus.h	345;"	d
+NFCSTATUS_NOT_ALLOWED	common/phNfcStatus.h	182;"	d
+NFCSTATUS_NOT_ENOUGH_MEMORY	common/phNfcStatus.h	350;"	d
+NFCSTATUS_NOT_INITIALISED	common/phNfcStatus.h	135;"	d
+NFCSTATUS_NOT_REGISTERED	common/phNfcStatus.h	152;"	d
+NFCSTATUS_NO_DEVICE_CONNECTED	common/phNfcStatus.h	276;"	d
+NFCSTATUS_NO_NDEF_SUPPORT	common/phNfcStatus.h	204;"	d
+NFCSTATUS_NO_TARGET_FOUND	common/phNfcStatus.h	273;"	d
+NFCSTATUS_OK	common/phNfcStatus.h	76;"	d
+NFCSTATUS_PENDING	common/phNfcStatus.h	118;"	d
+NFCSTATUS_READ_FAILED	common/phNfcStatus.h	196;"	d
+NFCSTATUS_REG_OPMODE_NOT_SUPPORTED	common/phNfcStatus.h	305;"	d
+NFCSTATUS_REJECTED	common/phNfcStatus.h	320;"	d
+NFCSTATUS_RELEASED	common/phNfcStatus.h	177;"	d
+NFCSTATUS_RESPONSE_TIMEOUT	common/phNfcStatus.h	228;"	d
+NFCSTATUS_RF_ERROR	common/phNfcStatus.h	107;"	d
+NFCSTATUS_RF_TIMEOUT	common/phNfcStatus.h	102;"	d
+NFCSTATUS_SECURE_ELEMENT_ACTIVATED	common/phNfcStatus.h	253;"	d
+NFCSTATUS_SHUTDOWN	common/phNfcStatus.h	310;"	d
+NFCSTATUS_SINGLE_TAG_ACTIVATED	common/phNfcStatus.h	243;"	d
+NFCSTATUS_SINGLE_TAG_DISCOVERED	common/phNfcStatus.h	248;"	d
+NFCSTATUS_SMX_BAD_STATE	common/phNfcStatus.h	295;"	d
+NFCSTATUS_SUCCESS	common/phNfcStatus.h	71;"	d
+NFCSTATUS_TARGET_LOST	common/phNfcStatus.h	315;"	d
+NFCSTATUS_TARGET_NOT_CONNECTED	common/phNfcStatus.h	325;"	d
+NFCSTATUS_UNKNOWN_ERROR	common/phNfcStatus.h	258;"	d
+NFCSTATUS_WRITE_FAILED	common/phNfcStatus.h	201;"	d
+NFC_BIT_RATE_106	inc/phNxpNciHal_SelfTest.h	/^    NFC_BIT_RATE_106,$/;"	e	enum:__anon9
+NFC_BIT_RATE_212	inc/phNxpNciHal_SelfTest.h	/^    NFC_BIT_RATE_212,$/;"	e	enum:__anon9
+NFC_BIT_RATE_424	inc/phNxpNciHal_SelfTest.h	/^    NFC_BIT_RATE_424,$/;"	e	enum:__anon9
+NFC_BIT_RATE_848	inc/phNxpNciHal_SelfTest.h	/^    NFC_BIT_RATE_848,$/;"	e	enum:__anon9
+NFC_FORUM_PROFILE	hal/phNxpNciHal.h	/^    NFC_FORUM_PROFILE,$/;"	e	enum:__anon11
+NFC_FW_DOWNLOAD	dnld/phNxpNciHal_Dnld.c	33;"	d
+NFC_MEM_READ	dnld/phNxpNciHal_Dnld.c	31;"	d
+NFC_MEM_WRITE	dnld/phNxpNciHal_Dnld.c	32;"	d
+NFC_RF_TECHNOLOGY_A	inc/phNxpNciHal_SelfTest.h	/^    NFC_RF_TECHNOLOGY_A,$/;"	e	enum:__anon8
+NFC_RF_TECHNOLOGY_B	inc/phNxpNciHal_SelfTest.h	/^    NFC_RF_TECHNOLOGY_B,$/;"	e	enum:__anon8
+NFC_RF_TECHNOLOGY_F	inc/phNxpNciHal_SelfTest.h	/^    NFC_RF_TECHNOLOGY_F,$/;"	e	enum:__anon8
+NORMAL_MODE_HEADER_LEN	tml/phTmlNfc_i2c.c	40;"	d
+NORMAL_MODE_LEN_OFFSET	tml/phTmlNfc_i2c.c	43;"	d
+NXPLOG_DEFAULT_LOGLEVEL	log/phNxpLog.h	72;"	d
+NXPLOG_EXTNS_D	log/phNxpLog.h	104;"	d
+NXPLOG_EXTNS_D	log/phNxpLog.h	108;"	d
+NXPLOG_EXTNS_E	log/phNxpLog.h	106;"	d
+NXPLOG_EXTNS_E	log/phNxpLog.h	110;"	d
+NXPLOG_EXTNS_ENTRY	log/phNxpLog.h	194;"	d
+NXPLOG_EXTNS_ENTRY	log/phNxpLog.h	197;"	d
+NXPLOG_EXTNS_EXIT	log/phNxpLog.h	195;"	d
+NXPLOG_EXTNS_EXIT	log/phNxpLog.h	198;"	d
+NXPLOG_EXTNS_W	log/phNxpLog.h	105;"	d
+NXPLOG_EXTNS_W	log/phNxpLog.h	109;"	d
+NXPLOG_FUNC_ENTRY	log/phNxpLog.h	93;"	d
+NXPLOG_FUNC_EXIT	log/phNxpLog.h	95;"	d
+NXPLOG_FWDNLD_D	log/phNxpLog.h	148;"	d
+NXPLOG_FWDNLD_D	log/phNxpLog.h	152;"	d
+NXPLOG_FWDNLD_E	log/phNxpLog.h	150;"	d
+NXPLOG_FWDNLD_E	log/phNxpLog.h	154;"	d
+NXPLOG_FWDNLD_W	log/phNxpLog.h	149;"	d
+NXPLOG_FWDNLD_W	log/phNxpLog.h	153;"	d
+NXPLOG_HCPR_D	log/phNxpLog.h	182;"	d
+NXPLOG_HCPR_D	log/phNxpLog.h	186;"	d
+NXPLOG_HCPR_E	log/phNxpLog.h	184;"	d
+NXPLOG_HCPR_E	log/phNxpLog.h	188;"	d
+NXPLOG_HCPR_ENTRY	log/phNxpLog.h	236;"	d
+NXPLOG_HCPR_ENTRY	log/phNxpLog.h	239;"	d
+NXPLOG_HCPR_EXIT	log/phNxpLog.h	237;"	d
+NXPLOG_HCPR_EXIT	log/phNxpLog.h	240;"	d
+NXPLOG_HCPR_W	log/phNxpLog.h	183;"	d
+NXPLOG_HCPR_W	log/phNxpLog.h	187;"	d
+NXPLOG_HCPX_D	log/phNxpLog.h	171;"	d
+NXPLOG_HCPX_D	log/phNxpLog.h	175;"	d
+NXPLOG_HCPX_E	log/phNxpLog.h	173;"	d
+NXPLOG_HCPX_E	log/phNxpLog.h	177;"	d
+NXPLOG_HCPX_ENTRY	log/phNxpLog.h	228;"	d
+NXPLOG_HCPX_ENTRY	log/phNxpLog.h	231;"	d
+NXPLOG_HCPX_EXIT	log/phNxpLog.h	229;"	d
+NXPLOG_HCPX_EXIT	log/phNxpLog.h	232;"	d
+NXPLOG_HCPX_W	log/phNxpLog.h	172;"	d
+NXPLOG_HCPX_W	log/phNxpLog.h	176;"	d
+NXPLOG_ITEM_EXTNS	log/phNxpLog.c	/^const char * NXPLOG_ITEM_EXTNS   = "NxpExtns";$/;"	v
+NXPLOG_ITEM_FWDNLD	log/phNxpLog.c	/^const char * NXPLOG_ITEM_FWDNLD  = "NxpFwDnld";$/;"	v
+NXPLOG_ITEM_HCPR	log/phNxpLog.c	/^const char * NXPLOG_ITEM_HCPR    = "NxpHcpR";$/;"	v
+NXPLOG_ITEM_HCPX	log/phNxpLog.c	/^const char * NXPLOG_ITEM_HCPX    = "NxpHcpX";$/;"	v
+NXPLOG_ITEM_NCIHAL	log/phNxpLog.c	/^const char * NXPLOG_ITEM_NCIHAL  = "NxpHal";$/;"	v
+NXPLOG_ITEM_NCIR	log/phNxpLog.c	/^const char * NXPLOG_ITEM_NCIR    = "NxpNciR";$/;"	v
+NXPLOG_ITEM_NCIX	log/phNxpLog.c	/^const char * NXPLOG_ITEM_NCIX    = "NxpNciX";$/;"	v
+NXPLOG_ITEM_TML	log/phNxpLog.c	/^const char * NXPLOG_ITEM_TML     = "NxpTml";$/;"	v
+NXPLOG_LOG_DEBUG_LOGLEVEL	log/phNxpLog.h	67;"	d
+NXPLOG_LOG_ERROR_LOGLEVEL	log/phNxpLog.h	65;"	d
+NXPLOG_LOG_SILENT_LOGLEVEL	log/phNxpLog.h	64;"	d
+NXPLOG_LOG_WARN_LOGLEVEL	log/phNxpLog.h	66;"	d
+NXPLOG_NCIHAL_D	log/phNxpLog.h	115;"	d
+NXPLOG_NCIHAL_D	log/phNxpLog.h	119;"	d
+NXPLOG_NCIHAL_E	log/phNxpLog.h	117;"	d
+NXPLOG_NCIHAL_E	log/phNxpLog.h	121;"	d
+NXPLOG_NCIHAL_ENTRY	log/phNxpLog.h	202;"	d
+NXPLOG_NCIHAL_ENTRY	log/phNxpLog.h	205;"	d
+NXPLOG_NCIHAL_EXIT	log/phNxpLog.h	203;"	d
+NXPLOG_NCIHAL_EXIT	log/phNxpLog.h	206;"	d
+NXPLOG_NCIHAL_W	log/phNxpLog.h	116;"	d
+NXPLOG_NCIHAL_W	log/phNxpLog.h	120;"	d
+NXPLOG_NCIR_D	log/phNxpLog.h	137;"	d
+NXPLOG_NCIR_D	log/phNxpLog.h	141;"	d
+NXPLOG_NCIR_E	log/phNxpLog.h	139;"	d
+NXPLOG_NCIR_E	log/phNxpLog.h	143;"	d
+NXPLOG_NCIR_ENTRY	log/phNxpLog.h	218;"	d
+NXPLOG_NCIR_ENTRY	log/phNxpLog.h	221;"	d
+NXPLOG_NCIR_EXIT	log/phNxpLog.h	219;"	d
+NXPLOG_NCIR_EXIT	log/phNxpLog.h	222;"	d
+NXPLOG_NCIR_W	log/phNxpLog.h	138;"	d
+NXPLOG_NCIR_W	log/phNxpLog.h	142;"	d
+NXPLOG_NCIX_D	log/phNxpLog.h	126;"	d
+NXPLOG_NCIX_D	log/phNxpLog.h	130;"	d
+NXPLOG_NCIX_E	log/phNxpLog.h	128;"	d
+NXPLOG_NCIX_E	log/phNxpLog.h	132;"	d
+NXPLOG_NCIX_ENTRY	log/phNxpLog.h	210;"	d
+NXPLOG_NCIX_ENTRY	log/phNxpLog.h	213;"	d
+NXPLOG_NCIX_EXIT	log/phNxpLog.h	211;"	d
+NXPLOG_NCIX_EXIT	log/phNxpLog.h	214;"	d
+NXPLOG_NCIX_W	log/phNxpLog.h	127;"	d
+NXPLOG_NCIX_W	log/phNxpLog.h	131;"	d
+NXPLOG_TML_D	log/phNxpLog.h	159;"	d
+NXPLOG_TML_D	log/phNxpLog.h	163;"	d
+NXPLOG_TML_E	log/phNxpLog.h	161;"	d
+NXPLOG_TML_E	log/phNxpLog.h	165;"	d
+NXPLOG_TML_W	log/phNxpLog.h	160;"	d
+NXPLOG_TML_W	log/phNxpLog.h	164;"	d
+NXPLOG__H_INCLUDED	log/phNxpLog.h	18;"	d
+NXP_MW_VERSION_MAJ	common/phNfcCommon.h	46;"	d
+NXP_MW_VERSION_MIN	common/phNfcCommon.h	47;"	d
+NXP_SYS_CLK_FREQ_SEL	common/phNfcCommon.h	78;"	d
+NXP_SYS_CLK_SRC_SEL	common/phNfcCommon.h	61;"	d
+NumBlock	common/phNfcTypes.h	/^    uint8_t                         NumBlock;   \/* Number of Blocks to perform operation *\/$/;"	m	struct:phNfc_sTransceiveInfo
+P2P_PRIO_LOGIC_HAL_IMP	hal/phNxpNciHal.h	27;"	d
+P2P_PRIO_LOGIC_HAL_IMP	hal/phNxpNciHal_ext.c	27;"	d
+PHDAL4NFC_MESSAGEQUEUE_H	tml/phDal4Nfc_messageQueueLib.h	22;"	d
+PHDNLDNFC_CHK_HDR_FRAGBIT	dnld/phDnldNfc_Internal.c	46;"	d
+PHDNLDNFC_CLR_HDR_FRAGBIT	dnld/phDnldNfc_Internal.c	45;"	d
+PHDNLDNFC_CMDRESP_MAX_BUFF_SIZE	dnld/phDnldNfc_Internal.h	27;"	d
+PHDNLDNFC_CMDRESP_MAX_PLD_SIZE	dnld/phDnldNfc_Internal.h	44;"	d
+PHDNLDNFC_CMD_H	dnld/phDnldNfc_Cmd.h	22;"	d
+PHDNLDNFC_DATA_SIZE	dnld/phDnldNfc_Internal.h	36;"	d
+PHDNLDNFC_EEFL_ADDR_SIZE	dnld/phDnldNfc_Internal.h	35;"	d
+PHDNLDNFC_EEPROM_LOG_END_ADDR	dnld/phDnldNfc_Internal.h	39;"	d
+PHDNLDNFC_EEPROM_LOG_START_ADDR	dnld/phDnldNfc_Internal.h	38;"	d
+PHDNLDNFC_FIRST_FRAGFRAME_RESP	dnld/phDnldNfc_Internal.c	41;"	d
+PHDNLDNFC_FIRST_FRAME_PLD_SIZE	dnld/phDnldNfc_Internal.c	39;"	d
+PHDNLDNFC_FRAMEID_OFFSET	dnld/phDnldNfc_Internal.c	31;"	d
+PHDNLDNFC_FRAMESTATUS_OFFSET	dnld/phDnldNfc_Internal.c	32;"	d
+PHDNLDNFC_FRAME_CRC_LEN	dnld/phDnldNfc_Internal.h	32;"	d
+PHDNLDNFC_FRAME_HDR_LEN	dnld/phDnldNfc_Internal.h	31;"	d
+PHDNLDNFC_FRAME_HDR_OFFSET	dnld/phDnldNfc_Internal.c	30;"	d
+PHDNLDNFC_FRAME_ID_LEN	dnld/phDnldNfc_Internal.h	33;"	d
+PHDNLDNFC_FRAME_RDDATA_OFFSET	dnld/phDnldNfc_Internal.c	35;"	d
+PHDNLDNFC_FRAME_SIGNATURE_SIZE	dnld/phDnldNfc_Internal.c	38;"	d
+PHDNLDNFC_H	dnld/phDnldNfc.h	21;"	d
+PHDNLDNFC_HWVER_MRA1_0	dnld/phDnldNfc.h	38;"	d
+PHDNLDNFC_HWVER_MRA1_1	dnld/phDnldNfc.h	39;"	d
+PHDNLDNFC_HWVER_MRA2_0	dnld/phDnldNfc.h	40;"	d
+PHDNLDNFC_HWVER_MRA2_1	dnld/phDnldNfc.h	41;"	d
+PHDNLDNFC_HWVER_MRA2_2	dnld/phDnldNfc.h	42;"	d
+PHDNLDNFC_INTERNAL_H	dnld/phDnldNfc_Internal.h	21;"	d
+PHDNLDNFC_MAX_LOG_SIZE	dnld/phDnldNfc_Internal.h	41;"	d
+PHDNLDNFC_MIN_PLD_LEN	dnld/phDnldNfc_Internal.c	28;"	d
+PHDNLDNFC_NEXT_FRAGFRAME_RESP	dnld/phDnldNfc_Internal.c	42;"	d
+PHDNLDNFC_PLD_OFFSET	dnld/phDnldNfc_Internal.c	33;"	d
+PHDNLDNFC_RETRY_FRAME_WRITE	dnld/phDnldNfc_Internal.c	49;"	d
+PHDNLDNFC_RSP_TIMEOUT	dnld/phDnldNfc_Internal.c	48;"	d
+PHDNLDNFC_SET_HDR_FRAGBIT	dnld/phDnldNfc_Internal.c	44;"	d
+PHDNLDNFC_STATUS_H	dnld/phDnldNfc_Status.h	21;"	d
+PHDNLDNFC_USERDATA_EEPROM_LEN	dnld/phDnldNfc_Internal.c	57;"	d
+PHDNLDNFC_USERDATA_EEPROM_LEN	dnld/phDnldNfc_Internal.c	61;"	d
+PHDNLDNFC_USERDATA_EEPROM_LENSIZE	dnld/phDnldNfc_Internal.c	51;"	d
+PHDNLDNFC_USERDATA_EEPROM_OFFSET	dnld/phDnldNfc_Internal.c	56;"	d
+PHDNLDNFC_USERDATA_EEPROM_OFFSET	dnld/phDnldNfc_Internal.c	60;"	d
+PHDNLDNFC_USERDATA_EEPROM_OFFSIZE	dnld/phDnldNfc_Internal.c	52;"	d
+PHDNLDNFC_UTILS_H	dnld/phDnldNfc_Utils.h	21;"	d
+PHDNLDNFC_WRITERSP_BUFF_SIZE	dnld/phDnldNfc_Internal.h	29;"	d
+PHLIBNFC_DNLD_MEM_READ	dnld/phNxpNciHal_Dnld.c	28;"	d
+PHLIBNFC_DNLD_MEM_WRITE	dnld/phNxpNciHal_Dnld.c	29;"	d
+PHLIBNFC_DNLD_READ_LOG	dnld/phNxpNciHal_Dnld.c	30;"	d
+PHLIBNFC_FWDNLD_SESSNCLOSED	dnld/phDnldNfc.h	36;"	d
+PHLIBNFC_FWDNLD_SESSNOPEN	dnld/phDnldNfc.h	35;"	d
+PHLIBNFC_IOCTL_DNLD_GETVERLEN	dnld/phNxpNciHal_Dnld.c	26;"	d
+PHLIBNFC_IOCTL_DNLD_GETVERLEN_MRA2_1	dnld/phNxpNciHal_Dnld.c	27;"	d
+PHLIBNFC_IOCTL_DNLD_MAX_ATTEMPTS	dnld/phNxpNciHal_Dnld.c	25;"	d
+PHNFCCID	common/phNfcStatus.h	55;"	d
+PHNFCCOMMON_H	common/phNfcCommon.h	22;"	d
+PHNFCCOMPID_H	common/phNfcCompId.h	22;"	d
+PHNFCSTATUS	common/phNfcStatus.h	54;"	d
+PHNFCSTATUS_H	common/phNfcStatus.h	22;"	d
+PHNFCSTBLOWER	common/phNfcStatus.h	29;"	d
+PHNFCSTSHL8	common/phNfcStatus.h	27;"	d
+PHNFCSTVAL	common/phNfcStatus.h	45;"	d
+PHNFCTYPES_H	common/phNfcTypes.h	18;"	d
+PHNFC_ATQA_LENGTH	common/phNfcTypes.h	40;"	d
+PHNFC_MAX_ATR_LENGTH	common/phNfcTypes.h	38;"	d
+PHNFC_MAX_UID_LENGTH	common/phNfcTypes.h	37;"	d
+PHNFC_NFCID_LENGTH	common/phNfcTypes.h	39;"	d
+PHOSALNFC_TIMER_H	tml/phOsalNfc_Timer.h	22;"	d
+PHTMLNFC_H	tml/phTmlNfc.h	27;"	d
+PHTMLNFC_MAXTIME_RETRANSMIT	tml/phTmlNfc.c	31;"	d
+PH_DL_CMD_CHECKINTEGRITY	dnld/phDnldNfc_Cmd.h	/^    PH_DL_CMD_CHECKINTEGRITY  = 0xE0, \/* Check Integrity *\/$/;"	e	enum:phDnldNfc_CmdId
+PH_DL_CMD_FORCE	dnld/phDnldNfc_Cmd.h	/^    PH_DL_CMD_FORCE           = 0xD0, \/* Force *\/$/;"	e	enum:phDnldNfc_CmdId
+PH_DL_CMD_GETSESSIONSTATE	dnld/phDnldNfc_Cmd.h	/^    PH_DL_CMD_GETSESSIONSTATE = 0xF2  \/* Get Session State *\/$/;"	e	enum:phDnldNfc_CmdId
+PH_DL_CMD_GETVERSION	dnld/phDnldNfc_Cmd.h	/^    PH_DL_CMD_GETVERSION      = 0xF1, \/* Get Version *\/$/;"	e	enum:phDnldNfc_CmdId
+PH_DL_CMD_LOG	dnld/phDnldNfc_Cmd.h	/^    PH_DL_CMD_LOG             = 0xA7, \/* Log *\/$/;"	e	enum:phDnldNfc_CmdId
+PH_DL_CMD_NONE	dnld/phDnldNfc_Cmd.h	/^    PH_DL_CMD_NONE            = 0x00, \/* Invalid Cmd *\/$/;"	e	enum:phDnldNfc_CmdId
+PH_DL_CMD_READ	dnld/phDnldNfc_Cmd.h	/^    PH_DL_CMD_READ            = 0xA2, \/* Read *\/$/;"	e	enum:phDnldNfc_CmdId
+PH_DL_CMD_RESET	dnld/phDnldNfc_Cmd.h	/^    PH_DL_CMD_RESET           = 0xF0, \/* Reset *\/$/;"	e	enum:phDnldNfc_CmdId
+PH_DL_CMD_WRITE	dnld/phDnldNfc_Cmd.h	/^    PH_DL_CMD_WRITE           = 0xC0, \/* Write *\/$/;"	e	enum:phDnldNfc_CmdId
+PH_DL_STATUS_ABORTED_CMD	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_ABORTED_CMD                      = NFCSTATUS_ABORTED,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_ADDR_RANGE_OFL_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_ADDR_RANGE_OFL_ERROR             = 0x1E,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_AUTHENTICATION_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_AUTHENTICATION_ERROR             = 0x19,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_AUTHENTICATION_LOST	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_AUTHENTICATION_LOST              = 0x1B,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_BUFFER_OFL_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_BUFFER_OFL_ERROR                 = 0x1F,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_FIRMWARE_VERSION_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_FIRMWARE_VERSION_ERROR           = 0x24,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_FLASH_READ_PROTECTED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_FLASH_READ_PROTECTED             = PH_DL_STATUS_READ_PROTECTED,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_FLASH_WRITE_PROTECTED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_FLASH_WRITE_PROTECTED            = PH_DL_STATUS_WRITE_PROTECTED,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_GENERIC_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_GENERIC_ERROR                    = NFCSTATUS_FAILED,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_HOST_PAYLOAD_OFL_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_HOST_PAYLOAD_OFL_ERROR           = 0x27,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_HOST_PAYLOAD_UFL_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_HOST_PAYLOAD_UFL_ERROR           = 0x26,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_INVALID_ADDR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_INVALID_ADDR                     = NFCSTATUS_INVALID_PARAMETER,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_LC_CREATION_NOT_SUPPORTED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_LC_CREATION_NOT_SUPPORTED        = 0x15,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_LC_TERMINATION_NOT_SUPPORTED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_LC_TERMINATION_NOT_SUPPORTED     = 0x14,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_LC_UNKNOWN	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_LC_UNKNOWN                       = 0x16,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_LC_WRONG	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_LC_WRONG                         = 0x13,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_LOOPBACK_DATA_MISSMATCH_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_LOOPBACK_DATA_MISSMATCH_ERROR    = 0x25,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_MEM_BSY	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_MEM_BSY                          = 0x20,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_NOT_AUTHENTICATED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_NOT_AUTHENTICATED                = 0x1A,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_OK	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_OK                               = NFCSTATUS_SUCCESS$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_PLL_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_PLL_ERROR                        = 0x0D,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_PROTOCOL_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_PROTOCOL_ERROR                   = 0x28,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_READ_PROTECTED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_READ_PROTECTED                   = 0x1D,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_SESSION_WAS_CLOSED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_SESSION_WAS_CLOSED               = 0x23,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_SESSION_WAS_OPEN	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_SESSION_WAS_OPEN                 = 0x22,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_SIGNATURE_ERROR	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_SIGNATURE_ERROR                  = 0x21,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_USERDATA_READ_PROTECTED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_USERDATA_READ_PROTECTED          = PH_DL_STATUS_READ_PROTECTED,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_USERDATA_WRITE_PROTECTED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_USERDATA_WRITE_PROTECTED         = PH_DL_STATUS_WRITE_PROTECTED,$/;"	e	enum:phDnldNfc_Status
+PH_DL_STATUS_WRITE_PROTECTED	dnld/phDnldNfc_Status.h	/^    PH_DL_STATUS_WRITE_PROTECTED                  = 0x1C,$/;"	e	enum:phDnldNfc_Status
+PH_LIBNFC_DEFERREDCALL_MSG	common/phNfcTypes.h	76;"	d
+PH_LIBNFC_VEN_RESET_ON_DOWNLOAD_TIMEOUT	dnld/phDnldNfc_Internal.c	63;"	d
+PH_NFC_MAX_TIMER	tml/phOsalNfc_Timer.c	28;"	d
+PH_NFC_TIMER_BASE_ADDRESS	tml/phOsalNfc_Timer.c	37;"	d
+PH_NFC_TIMER_ID_INVALID	tml/phOsalNfc_Timer.c	47;"	d
+PH_NFC_TIMER_ID_ZERO	tml/phOsalNfc_Timer.c	42;"	d
+PH_OSALNFC_TIMER_CREATE_ERROR	tml/phOsalNfc_Timer.h	44;"	d
+PH_OSALNFC_TIMER_DELETE_ERROR	tml/phOsalNfc_Timer.h	59;"	d
+PH_OSALNFC_TIMER_ID_INVALID	tml/phOsalNfc_Timer.h	63;"	d
+PH_OSALNFC_TIMER_MSG	tml/phOsalNfc_Timer.h	68;"	d
+PH_OSALNFC_TIMER_START_ERROR	tml/phOsalNfc_Timer.h	49;"	d
+PH_OSALNFC_TIMER_STOP_ERROR	tml/phOsalNfc_Timer.h	54;"	d
+PH_TMLNFC_READ_MESSAGE	tml/phTmlNfc.h	35;"	d
+PH_TMLNFC_RESETDEVICE	tml/phTmlNfc.h	46;"	d
+PH_TMLNFC_RESET_VALUE	tml/phTmlNfc.c	38;"	d
+PH_TMLNFC_VALUE_ONE	tml/phTmlNfc.c	41;"	d
+PH_TMLNFC_WRITE_MESSAGE	tml/phTmlNfc.h	41;"	d
+PKU_LIB_PATH	common/phNfcCommon.h	43;"	d
+PLATFORM_LIB_PATH	common/phNfcCommon.h	41;"	d
+PN544_SET_PWR	tml/phTmlNfc_i2c.c	319;"	d
+PN547C2_CLOCK_SETTING	hal/phNxpNciHal.c	30;"	d
+PN547C2_FACTORY_RESET_DEBUG	hal/phNxpNciHal.c	31;"	d
+PROPRIETARY_CMD_FELICA_READER_MODE	hal/phNxpNciHal_ext.c	67;"	d
+PROP_NAME_NXPLOG_EXTNS_LOGLEVEL	log/phNxpLog.h	57;"	d
+PROP_NAME_NXPLOG_FWDNLD_LOGLEVEL	log/phNxpLog.h	60;"	d
+PROP_NAME_NXPLOG_GLOBAL_LOGLEVEL	log/phNxpLog.h	56;"	d
+PROP_NAME_NXPLOG_HAL_LOGLEVEL	log/phNxpLog.h	58;"	d
+PROP_NAME_NXPLOG_NCI_LOGLEVEL	log/phNxpLog.h	59;"	d
+PROP_NAME_NXPLOG_TML_LOGLEVEL	log/phNxpLog.h	61;"	d
+REENTRANCE_LOCK	utils/phNxpNciHal_utils.h	97;"	d
+REENTRANCE_UNLOCK	utils/phNxpNciHal_utils.h	98;"	d
+RESUME_POLLING	hal/phNxpNciHal_NfcDepSWPrio.h	24;"	d
+RemDevType	common/phNfcTypes.h	/^    phNfc_eRemDevType_t        RemDevType;          \/* Remote device type *\/$/;"	m	struct:phNfc_sRemoteDevInformation
+RemoteDevInfo	common/phNfcTypes.h	/^    phNfc_uRemoteDevInfo_t     RemoteDevInfo;       \/* Union of available Remote Device *\/$/;"	m	struct:phNfc_sRemoteDevInformation
+Reset	utils/phNxpConfig.cpp	/^    inline void Reset(unsigned long f) {state &= ~f;}$/;"	f	class:CNfcConfig
+RfDiscID	hal/phNxpNciHal_ext.c	/^static uint32_t RfDiscID = 1;$/;"	v
+RfProtocolType	hal/phNxpNciHal_ext.c	/^static uint32_t RfProtocolType = 4;$/;"	v
+Rx_data	hal/phNxpNciHal.c	/^static uint8_t Rx_data[NCI_MAX_DATA_LEN];$/;"	v
+SEM_POST	utils/phNxpNciHal_utils.h	59;"	d
+SEM_WAIT	utils/phNxpNciHal_utils.h	58;"	d
+START_POLLING	hal/phNxpNciHal_NfcDepSWPrio.h	23;"	d
+STATIC	common/phNfcTypes.h	35;"	d
+STATIC_PIPE_INDEX	hal/phNxpNciHal.c	34;"	d
+STOP_POLLING	hal/phNxpNciHal_NfcDepSWPrio.h	25;"	d
+Sak	common/phNfcTypes.h	/^    uint8_t         Sak;                            \/* SAK information of the TYPE A$/;"	m	struct:phNfc_sIso14443AInfo
+ServiceCodeList	common/phNfcTypes.h	/^    uint16_t *ServiceCodeList;                  \/* 2 Byte service Code List *\/$/;"	m	struct:phNfc_sTransceiveInfo
+SessionOpened	common/phNfcTypes.h	/^    uint8_t                    SessionOpened;       \/* Flag indicating the validity of$/;"	m	struct:phNfc_sRemoteDevInformation
+Set	utils/phNxpConfig.cpp	/^    inline void Set(unsigned long f) {state |= f;}$/;"	f	class:CNfcConfig
+Size	common/phNfcTypes.h	/^    uint32_t Size;       \/* Size of the datablock*\/$/;"	m	struct:phLibNfc_Message
+TRUE	common/phNfcTypes.h	27;"	d
+TimerId	common/phNfcCommon.h	/^    uint32_t TimerId;                                   \/* ID of the timer *\/$/;"	m	struct:phOsalNfc_TimerHandle
+TimerInfo	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_RspTimerInfo_t TimerInfo;            \/* Timer context handled into download context*\/$/;"	m	struct:phDnldNfc_DlContext
+TimerStatus	dnld/phDnldNfc_Internal.h	/^    uint8_t    TimerStatus;                   \/* 0 = Timer not running 1 = timer running*\/$/;"	m	struct:phDnldNfc_RspTimerInfo
+Type	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_FrameInputType_t Type;   \/* Type of frame input required for current cmd in process *\/$/;"	m	struct:phDnldNfc_FrameInput
+UNUSED	common/phNfcTypes.h	300;"	d
+Uid	common/phNfcTypes.h	/^    uint8_t         Uid[PHNFC_MAX_UID_LENGTH];      \/* UID information of the TYPE A$/;"	m	struct:phNfc_sIso14443AInfo
+UidLength	common/phNfcTypes.h	/^    uint8_t         UidLength;                      \/* UID information length *\/$/;"	m	struct:phNfc_sIso14443AInfo
+UserCb	dnld/phDnldNfc.c	/^static pphDnldNfc_RspCb_t      UserCb; \/* Upper layer call back function *\/$/;"	v
+UserCb	dnld/phDnldNfc_Internal.h	/^    pphDnldNfc_RspCb_t      UserCb    ;            \/* Upper layer call back function *\/$/;"	m	struct:phDnldNfc_DlContext
+UserCtxt	dnld/phDnldNfc.c	/^static void*                   UserCtxt; \/* Pointer to upper layer context *\/$/;"	v
+UserCtxt	dnld/phDnldNfc_Internal.h	/^    void*                   UserCtxt  ;            \/* Pointer to upper layer context *\/$/;"	m	struct:phDnldNfc_DlContext
+_PHNXPNCIHAL_ADAPTATION_H_	inc/phNxpNciHal_Adaptation.h	18;"	d
+_PHNXPNCIHAL_API_H_	inc/phNxpNciHal_Api.h	17;"	d
+_PHNXPNCIHAL_DNLD_H_	dnld/phNxpNciHal_Dnld.h	17;"	d
+_PHNXPNCIHAL_DTA_H_	hal/phNxpNciHal_dta.h	18;"	d
+_PHNXPNCIHAL_EXT_H_	hal/phNxpNciHal_ext.h	17;"	d
+_PHNXPNCIHAL_H_	hal/phNxpNciHal.h	17;"	d
+_PHNXPNCIHAL_KOVIO_H_	hal/phNxpNciHal_Kovio.h	17;"	d
+_PHNXPNCIHAL_NFCDEPSWPRIO_H_	hal/phNxpNciHal_NfcDepSWPrio.h	17;"	d
+_PHNXPNCIHAL_SELFTEST_H_	inc/phNxpNciHal_SelfTest.h	17;"	d
+_PHNXPNCIHAL_UTILS_H_	utils/phNxpNciHal_utils.h	20;"	d
+__CONFIG_H	utils/phNxpConfig.h	40;"	d
+aCrcTab	dnld/phDnldNfc_Utils.c	/^static uint16_t const aCrcTab[256] =$/;"	v
+aFrameBuff	dnld/phDnldNfc_Internal.h	/^    uint8_t aFrameBuff[PHDNLDNFC_CMDRESP_MAX_BUFF_SIZE];    \/* Buffer to store command that needs to be sent*\/$/;"	m	struct:phDnldNfc_FrameInfo
+add	utils/phNxpConfig.cpp	/^void CNfcConfig::add(const CNfcParam* pParam)$/;"	f	class:CNfcConfig
+addr	common/phNfcTypes.h	/^    uint8_t                         addr;       \/* Start Block Number *\/$/;"	m	struct:phNfc_sTransceiveInfo
+all-cpp-files-under	Android.mk	/^define all-cpp-files-under$/;"	m
+alternative_config_path	utils/phNxpConfig.cpp	/^const char alternative_config_path[] = "";$/;"	v
+alternative_config_path	utils/phNxpConfig.cpp	/^const char alternative_config_path[] = "\/data\/nfc\/";$/;"	v
+antenna_self_test_data	self-test/phNxpNciHal_SelfTest.c	/^static nci_test_data_t antenna_self_test_data[] = {$/;"	v
+apTimerInfo	tml/phOsalNfc_Timer.c	/^static phOsalNfc_TimerHandle_t         apTimerInfo[PH_NFC_MAX_TIMER];$/;"	v
+bChipVer	dnld/phNxpNciHal_Dnld.c	/^    uint8_t                      bChipVer;       \/* holds the hw chip version *\/$/;"	m	struct:__anon1
+bClkFreqVal	dnld/phNxpNciHal_Dnld.c	/^    uint8_t                      bClkFreqVal;    \/* Holds the System clock frequency read from config file *\/$/;"	m	struct:__anon1
+bClkFreqVal	hal/phNxpNciHal.h	/^    uint8_t                      bClkFreqVal;    \/* Holds the System clock frequency read from config file *\/$/;"	m	struct:phNxpNciProfile_Control
+bClkSrcVal	dnld/phNxpNciHal_Dnld.c	/^    uint8_t                      bClkSrcVal;     \/* Holds the System clock source read from config file *\/$/;"	m	struct:__anon1
+bClkSrcVal	hal/phNxpNciHal.h	/^    uint8_t                      bClkSrcVal;     \/* Holds the System clock source read from config file *\/$/;"	m	struct:phNxpNciProfile_Control
+bConfig	dnld/phNxpNciHal_Dnld.c	/^    bool_t       bConfig;           \/* Flag to be set in dnld mode after successful dnld,to be reset in NCI Mode$/;"	m	struct:phLibNfc_EELogParams
+bCoreInitRsp	hal/phNxpNciHal_ext.c	/^static uint32_t bCoreInitRsp[40];$/;"	v
+bCurrentRetryCount	tml/phTmlNfc.c	/^static uint8_t bCurrentRetryCount = (2000 \/ PHTMLNFC_MAXTIME_RETRANSMIT) + 1;$/;"	v
+bDnldAttemptFailed	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bDnldAttemptFailed;  \/* Flag to indicate last download attempt failed *\/$/;"	m	struct:__anon1
+bDnldAttempts	dnld/phNxpNciHal_Dnld.c	/^    uint8_t                      bDnldAttempts;  \/* Holds the count of no. of dnld attempts made.max 3 *\/$/;"	m	struct:__anon1
+bDnldEepromWrite	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bDnldEepromWrite;  \/* Flag to indicate eeprom write request*\/$/;"	m	struct:__anon1
+bDnldInitiated	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bDnldInitiated; \/* Flag to indicate if fw upgrade was initiated *\/$/;"	m	struct:__anon1
+bDnldRecovery	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bDnldRecovery;  \/* Flag to indicate if dnld recovery sequence needs to be triggered *\/$/;"	m	struct:__anon1
+bEnable	tml/phTmlNfc.h	/^    volatile uint8_t bEnable; \/*This flag shall decide whether to perform Write\/Read operation *\/$/;"	m	struct:phTmlNfc_ReadWriteInfo
+bEnableCrc	tml/phTmlNfc.h	/^    uint8_t bEnableCrc; \/*Flag to validate\/not CRC for input buffer *\/$/;"	m	struct:phTmlNfc_Context
+bFirstChunkResp	dnld/phDnldNfc_Internal.h	/^    bool_t    bFirstChunkResp;       \/* Flag to indicate if we got the first chunk response *\/$/;"	m	struct:phDnldNfc_RWInfo
+bFirstWrReq	dnld/phDnldNfc_Internal.h	/^    bool_t    bFirstWrReq;           \/* Flag to indicate if this is the first write frame being sent *\/$/;"	m	struct:phDnldNfc_RWInfo
+bForceDnld	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bForceDnld;     \/* Flag to indicate if forced download option is enabled *\/$/;"	m	struct:__anon1
+bFramesSegmented	dnld/phDnldNfc_Internal.h	/^    bool_t    bFramesSegmented;      \/* Flag to indicate if Read\/Write frames are segmented *\/$/;"	m	struct:phDnldNfc_RWInfo
+bFwDnldFlag	tml/phTmlNfc_i2c.c	/^static bool_t bFwDnldFlag = FALSE;$/;"	v
+bIgnoreIsoDep	hal/phNxpNciHal_NfcDepSWPrio.c	/^static uint8_t bIgnoreIsoDep = 0;$/;"	v
+bIgnorep2plogic	hal/phNxpNciHal_NfcDepSWPrio.c	/^static uint8_t bIgnorep2plogic = 0;$/;"	v
+bLastStatus	dnld/phNxpNciHal_Dnld.c	/^    NFCSTATUS                    bLastStatus;    \/* Holds the actual download write attempt status *\/$/;"	m	struct:__anon1
+bLibNfcCtxtMem	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bLibNfcCtxtMem; \/* flag to indicate if mem was allocated for gpphLibNfc_Context *\/$/;"	m	struct:__anon1
+bNumOfParams	dnld/phNxpNciHal_Dnld.c	/^    uint8_t  bNumOfParams;    \/* Number of Rf configurable parameters to be set *\/$/;"	m	struct:phLibNfc_IoctlSetRfConfig
+bPrevSessnOpen	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bPrevSessnOpen; \/* Flag to indicate previous download session is open or not *\/$/;"	m	struct:__anon1
+bResendLastFrame	dnld/phDnldNfc_Internal.h	/^    bool_t                  bResendLastFrame;      \/* Flag to resend the last write frame after MEM_BSY status *\/$/;"	m	struct:phDnldNfc_DlContext
+bRetryCount	tml/phTmlNfc.h	/^    uint8_t bRetryCount; \/*Number of times retransmission shall happen *\/$/;"	m	struct:phTmlNfc_Context
+bRetryDnld	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bRetryDnld;     \/* Flag to indicate retry download after successful recovery complete *\/$/;"	m	struct:__anon1
+bSendNciCmd	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bSendNciCmd;    \/* Flag to indicate if NCI cmd to be sent or not,after PKU *\/$/;"	m	struct:__anon1
+bSetSysPmuFlag	dnld/phNxpNciHal_Dnld.c	/^    uint8_t  bSetSysPmuFlag;  \/* Flag to decide wether to set SystemPmu or no from the first byte *\/$/;"	m	struct:phLibNfc_IoctlSetRfConfig
+bSkipForce	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bSkipForce;     \/* Flag to indicate Force cmd to be skipped or not in FW recovery sequence *\/$/;"	m	struct:__anon1
+bSkipReset	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bSkipReset;     \/* Flag to indicate Reset cmd to be skipped or not in FW download sequence *\/$/;"	m	struct:__anon1
+bSkipSeq	dnld/phNxpNciHal_Dnld.c	/^    bool_t                       bSkipSeq;       \/* Flag to indicate FW download sequence to be skipped or not *\/$/;"	m	struct:__anon1
+bThreadBusy	tml/phTmlNfc.h	/^    uint8_t bThreadBusy; \/*Flag to indicate thread is busy on respective operation *\/$/;"	m	struct:phTmlNfc_ReadWriteInfo
+bThreadDone	tml/phTmlNfc.h	/^    volatile uint8_t bThreadDone; \/*Flag to decide whether to run or abort the thread *\/$/;"	m	struct:phTmlNfc_Context
+bTimeout	hal/phNxpNciHal.h	/^    uint8_t                      bTimeout;       \/* Holds the Timeout Value *\/$/;"	m	struct:phNxpNciProfile_Control
+bWordCount	common/phNfcTypes.h	/^    uint8_t                        bWordCount;   \/* Number of words to be read or written *\/$/;"	m	struct:phNfc_sTransceiveInfo
+bWordPtrLen	common/phNfcTypes.h	/^    uint8_t                         bWordPtrLen; \/* Specifies the length of word pointer$/;"	m	struct:phNfc_sTransceiveInfo
+bWriteCbInvoked	tml/phTmlNfc.h	/^    uint8_t bWriteCbInvoked; \/* Indicates whether write callback is invoked during retransmission *\/$/;"	m	struct:phTmlNfc_Context
+bool_t	common/phNfcTypes.h	/^typedef uint8_t             bool_t;       \/* boolean data type *\/$/;"	t
+buffer	common/phNfcTypes.h	/^    uint8_t             *buffer; \/* Buffer to store data *\/$/;"	m	struct:phNfc_sData
+checkTimestamp	utils/phNxpConfig.cpp	/^int CNfcConfig::checkTimestamp()$/;"	f	class:CNfcConfig
+clean	utils/phNxpConfig.cpp	/^void CNfcConfig::clean()$/;"	f	class:CNfcConfig
+cleanup_timer	hal/phNxpNciHal_NfcDepSWPrio.c	/^uint32_t cleanup_timer;$/;"	v
+cleanup_timer_handler	hal/phNxpNciHal_NfcDepSWPrio.c	/^static void cleanup_timer_handler(uint32_t timerId, void *pContext)$/;"	f
+client_thread	hal/phNxpNciHal.h	/^    pthread_t client_thread;  \/* Integration thread handle *\/$/;"	m	struct:phNxpNciHal_Control
+cmd	common/phNfcTypes.h	/^    phNfc_uCmdList_t                cmd;        \/* Command for transceive *\/$/;"	m	struct:phNfc_sTransceiveInfo
+cmd	self-test/phNxpNciHal_SelfTest.c	/^    nci_data_t cmd;$/;"	m	struct:nci_test_data
+cmd_icode_eof	hal/phNxpNciHal.c	/^static uint8_t cmd_icode_eof[] = { 0x00, 0x00, 0x00 };$/;"	v
+cmd_len	hal/phNxpNciHal.h	/^    uint16_t cmd_len;$/;"	m	struct:phNxpNciHal_Control
+cmd_nfcee_setmode_enable	hal/phNxpNciHal_ext.c	/^static uint8_t cmd_nfcee_setmode_enable[] = { 0x22, 0x01, 0x02, 0x01, 0x01 };$/;"	v
+cmd_poll	hal/phNxpNciHal_NfcDepSWPrio.c	/^static uint8_t cmd_poll[64];$/;"	v
+cmd_poll_len	hal/phNxpNciHal_NfcDepSWPrio.c	/^static uint8_t cmd_poll_len = 0;$/;"	v
+cmd_resume_rf_discovery	hal/phNxpNciHal_NfcDepSWPrio.c	/^static uint8_t cmd_resume_rf_discovery[] = { 0x21, 0x06, 0x01, 0x03 }; \/* RF_DISCOVER *\/$/;"	v
+cmd_select_rf_discovery	hal/phNxpNciHal_NfcDepSWPrio.c	/^static uint8_t cmd_select_rf_discovery[] = {0x21,0x04,0x03,0x01,0x04,0x02 };$/;"	v
+cmd_stop_rf_discovery	hal/phNxpNciHal_NfcDepSWPrio.c	/^static uint8_t cmd_stop_rf_discovery[] = { 0x21, 0x06, 0x01, 0x00 }; \/* IDLE *\/$/;"	v
+concurrency_mutex	utils/phNxpNciHal_utils.h	/^    pthread_mutex_t concurrency_mutex;$/;"	m	struct:phNxpNciHal_Monitor
+config_name	utils/phNxpConfig.cpp	60;"	d
+config_timestamp_path	utils/phNxpConfig.cpp	/^const char config_timestamp_path[] = "\/data\/nfc\/libnfc-nxpConfigState.bin";$/;"	v
+custom_poll_timer	hal/phNxpNciHal_NfcDepSWPrio.c	/^static uint32_t custom_poll_timer;$/;"	v
+custom_poll_timer_handler	hal/phNxpNciHal_NfcDepSWPrio.c	/^static void custom_poll_timer_handler(uint32_t timerId, void *pContext)$/;"	f
+default_storage_location	utils/phNxpConfig.h	90;"	d
+disable_kovio	hal/phNxpNciHal_Kovio.c	/^int disable_kovio=0x00;$/;"	v
+discover_type	hal/phNxpNciHal_NfcDepSWPrio.c	/^int discover_type = 0xFF;$/;"	v
+dnld_log_level	log/phNxpLog.h	/^    uint8_t dnld_log_level;$/;"	m	struct:nci_log_level
+download_pin_test_data1	self-test/phNxpNciHal_SelfTest.c	/^static nci_test_data_t download_pin_test_data1[] = {$/;"	v
+download_pin_test_data2	self-test/phNxpNciHal_SelfTest.c	/^static nci_test_data_t download_pin_test_data2[] = {$/;"	v
+dta_ctrl_flag	hal/phNxpNciHal_dta.h	/^    uint8_t dta_ctrl_flag;$/;"	m	struct:phNxpDta_Control
+dta_pattern_no	hal/phNxpNciHal_dta.h	/^    uint16_t dta_pattern_no;$/;"	m	struct:phNxpDta_Control
+dta_t1t_flag	hal/phNxpNciHal_dta.h	/^    uint8_t dta_t1t_flag;$/;"	m	struct:phNxpDta_Control
+dwAddr	dnld/phDnldNfc_Internal.h	/^    uint32_t  dwAddr;                \/* current Addr updated for read\/write *\/$/;"	m	struct:phDnldNfc_RWInfo
+dwAddr	dnld/phDnldNfc_Internal.h	/^    uint32_t  dwAddr;       \/* Address value required for Read\/Write Cmd*\/$/;"	m	struct:phDnldNfc_FrameInput
+dwBaudRate	tml/phTmlNfc.h	/^    uint32_t dwBaudRate;$/;"	m	struct:phTmlNfc_Config
+dwCallbackThreadId	common/phNfcCommon.h	/^    uintptr_t dwCallbackThreadId; \/* Client ID to which message is posted *\/$/;"	m	struct:phOsalNfc_Config
+dwCallbackThreadId	tml/phTmlNfc.h	/^    uintptr_t dwCallbackThreadId; \/* Thread ID to which message to be posted *\/$/;"	m	struct:phTmlNfc_Context
+dwGetMsgThreadId	tml/phTmlNfc.h	/^    uintptr_t dwGetMsgThreadId;$/;"	m	struct:phTmlNfc_Config
+dwMsgPostedThread	tml/phTmlNfc.h	/^    uint32_t dwMsgPostedThread;$/;"	m	struct:__anon5
+dwRspTimerId	dnld/phDnldNfc_Internal.h	/^    uint32_t   dwRspTimerId;                  \/* Timer for Core to handle response *\/$/;"	m	struct:phDnldNfc_RspTimerInfo
+dwSendlength	dnld/phDnldNfc_Internal.h	/^    uint16_t dwSendlength;                                  \/* length of the payload  *\/$/;"	m	struct:phDnldNfc_FrameInfo
+dwTimerId	tml/phTmlNfc.h	/^    uint32_t dwTimerId; \/* Timer used to retransmit nci packet *\/$/;"	m	struct:phTmlNfc_Context
+dwWordPtr	common/phNfcTypes.h	/^    uint32_t                        dwWordPtr;   \/* Word address for the memory write *\/$/;"	m	struct:phNfc_sTransceiveInfo
+eConfig	tml/phTmlNfc.h	/^    phTmlNfc_ConfigRetrans_t eConfig; \/*Retransmission of Nci Packet during timeout *\/$/;"	m	struct:phTmlNfc_Context
+eMsgType	common/phNfcTypes.h	/^    uint32_t eMsgType;   \/* Type of the message to be posted*\/$/;"	m	struct:phLibNfc_Message
+eState	common/phNfcCommon.h	/^    phOsalNfc_TimerStates_t eState;                     \/* Timer states *\/$/;"	m	struct:phOsalNfc_TimerHandle
+eTimerIdle	common/phNfcCommon.h	/^    eTimerIdle = 0,         \/* Indicates Initial state of timer *\/$/;"	e	enum:__anon12
+eTimerRunning	common/phNfcCommon.h	/^    eTimerRunning = 1,      \/* Indicate timer state when started *\/$/;"	e	enum:__anon12
+eTimerStopped	common/phNfcCommon.h	/^    eTimerStopped = 2       \/* Indicates timer state when stopped *\/$/;"	e	enum:__anon12
+ee_disc_done	hal/phNxpNciHal_ext.c	/^static uint8_t ee_disc_done = 0x00;$/;"	v
+exp_ntf	self-test/phNxpNciHal_SelfTest.c	/^    nci_data_t exp_ntf;$/;"	m	struct:nci_test_data
+exp_rsp	self-test/phNxpNciHal_SelfTest.c	/^    nci_data_t exp_rsp;$/;"	m	struct:nci_test_data
+ext_cb_data	hal/phNxpNciHal.h	/^    phNxpNciHal_Sem_t ext_cb_data;$/;"	m	struct:phNxpNciHal_Control
+extns_log_level	log/phNxpLog.h	/^    uint8_t extns_log_level;$/;"	m	struct:nci_log_level
+extra_config_base	utils/phNxpConfig.cpp	61;"	d
+extra_config_ext	utils/phNxpConfig.cpp	62;"	d
+find	utils/phNxpConfig.cpp	/^const CNfcParam* CNfcConfig::find(const char* p_name) const$/;"	f	class:CNfcConfig
+fragmentation_enabled	tml/phTmlNfc.c	/^extern phTmlNfc_i2cfragmentation_t fragmentation_enabled = I2C_FRAGMENATATION_DISABLED;$/;"	v
+fragmentation_enabled	tml/phTmlNfc_i2c.h	/^phTmlNfc_i2cfragmentation_t fragmentation_enabled;$/;"	v
+fw_download_success	hal/phNxpNciHal.c	/^static uint8_t fw_download_success = 0;$/;"	v
+gDrvCfg	hal/phNxpNciHal.h	/^    phLibNfc_sConfig_t   gDrvCfg; \/* Driver config data *\/$/;"	m	struct:phNxpNciHal_Control
+gDrvCfg	self-test/phNxpNciHal_SelfTest.c	/^phLibNfc_sConfig_t   gDrvCfg;$/;"	v
+gFelicaReaderMode	hal/phNxpNciHal_ext.c	/^static uint8_t gFelicaReaderMode;$/;"	v
+gLog_level	log/phNxpLog.c	/^nci_log_level_t gLog_level;$/;"	v
+gagc_differential_status	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS gagc_differential_status = NFCSTATUS_FAILED;$/;"	v
+gagc_nfcld_status	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS gagc_nfcld_status = NFCSTATUS_FAILED;$/;"	v
+gagc_value_status	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS gagc_value_status = NFCSTATUS_FAILED;$/;"	v
+getDigitValue	utils/phNxpConfig.cpp	/^inline int getDigitValue(char c, int base)$/;"	f
+getDownloadFlag	tml/phTmlNfc_i2c.c	/^bool_t getDownloadFlag(void)$/;"	f
+getValue	utils/phNxpConfig.cpp	/^bool CNfcConfig::getValue(const char* name, char* pValue, long len,long* readlen) const$/;"	f	class:CNfcConfig
+getValue	utils/phNxpConfig.cpp	/^bool CNfcConfig::getValue(const char* name, char* pValue, size_t len) const$/;"	f	class:CNfcConfig
+getValue	utils/phNxpConfig.cpp	/^bool CNfcConfig::getValue(const char* name, unsigned long& rValue) const$/;"	f	class:CNfcConfig
+getValue	utils/phNxpConfig.cpp	/^bool CNfcConfig::getValue(const char* name, unsigned short& rValue) const$/;"	f	class:CNfcConfig
+global_log_level	log/phNxpLog.h	/^    uint8_t global_log_level;$/;"	m	struct:nci_log_level
+gphNxpNciHal_fw_IoctlCtx	dnld/phNxpNciHal_Dnld.c	/^static phNxpNciHal_fw_Ioctl_Cntx_t gphNxpNciHal_fw_IoctlCtx;$/;"	v
+gpphDnldContext	dnld/phDnldNfc.c	/^static pphDnldNfc_DlContext_t gpphDnldContext = NULL; \/* Download contex *\/$/;"	v
+gpphTmlNfc_Context	tml/phTmlNfc.c	/^phTmlNfc_Context_t *gpphTmlNfc_Context = NULL;$/;"	v
+gtxldo_status	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS gtxldo_status = NFCSTATUS_FAILED;$/;"	v
+hTimerHandle	common/phNfcCommon.h	/^    timer_t hTimerHandle;                               \/* Handle of the timer *\/$/;"	m	struct:phOsalNfc_TimerHandle
+halStatus	hal/phNxpNciHal.h	/^    phNxpNci_HalStatus   halStatus;      \/* Indicate if hal is open or closed *\/$/;"	m	struct:phNxpNciHal_Control
+hal_close	nfc_nci.c	/^static int hal_close(const struct nfc_nci_device *p_dev)$/;"	f
+hal_control_granted	nfc_nci.c	/^static int hal_control_granted(const struct nfc_nci_device *p_dev)$/;"	f
+hal_core_initialized	nfc_nci.c	/^static int hal_core_initialized(const struct nfc_nci_device *p_dev,$/;"	f
+hal_ext_enabled	hal/phNxpNciHal.h	/^    uint8_t hal_ext_enabled;$/;"	m	struct:phNxpNciHal_Control
+hal_extns_write_rsp_timeout_cb	hal/phNxpNciHal_ext.c	/^static void hal_extns_write_rsp_timeout_cb(uint32_t timerId, void *pContext)$/;"	f
+hal_log_level	log/phNxpLog.h	/^    uint8_t hal_log_level;$/;"	m	struct:nci_log_level
+hal_open	nfc_nci.c	/^static int hal_open(const struct nfc_nci_device *p_dev,$/;"	f
+hal_open_status	hal/phNxpNciHal.h	/^    bool_t hal_open_status;$/;"	m	struct:phNxpNciHal_Control
+hal_power_cycle	nfc_nci.c	/^static int hal_power_cycle(const struct nfc_nci_device *p_dev)$/;"	f
+hal_pre_discover	nfc_nci.c	/^static int hal_pre_discover(const struct nfc_nci_device *p_dev)$/;"	f
+hal_read_cb	self-test/phNxpNciHal_SelfTest.c	/^static void hal_read_cb(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+hal_write	nfc_nci.c	/^static int hal_write(const struct nfc_nci_device *p_dev, uint16_t data_len,$/;"	f
+hal_write_cb	hal/phNxpNciHal_Kovio.c	/^static void hal_write_cb(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+hal_write_cb	hal/phNxpNciHal_NfcDepSWPrio.c	/^static void hal_write_cb(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+hal_write_cb	self-test/phNxpNciHal_SelfTest.c	/^static void hal_write_cb(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+hal_write_rsp_timeout_cb	self-test/phNxpNciHal_SelfTest.c	/^static void hal_write_rsp_timeout_cb(uint32_t timerId, void *pContext)$/;"	f
+hal_write_timer_fired	self-test/phNxpNciHal_SelfTest.c	/^static int hal_write_timer_fired = 0;$/;"	v
+iCoreInitRspLen	hal/phNxpNciHal_ext.c	/^static uint32_t iCoreInitRspLen;$/;"	v
+icode_detected	hal/phNxpNciHal_ext.c	/^static uint8_t icode_detected = 0x00;$/;"	v
+icode_send_eof	hal/phNxpNciHal_ext.c	/^uint8_t icode_send_eof = 0x00;$/;"	v
+isDigit	utils/phNxpConfig.cpp	/^inline bool isDigit(char c, int base)$/;"	f
+isNxpConfigModified	utils/phNxpConfig.cpp	/^extern "C" int isNxpConfigModified()$/;"	f
+isPrintable	utils/phNxpConfig.cpp	/^inline bool isPrintable(char c)$/;"	f
+iso_dep_detected	hal/phNxpNciHal_NfcDepSWPrio.c	/^static int iso_dep_detected = 0x00;$/;"	v
+kovio_detected	hal/phNxpNciHal_Kovio.c	/^int kovio_detected = 0x00;$/;"	v
+kovio_timer	hal/phNxpNciHal_Kovio.c	/^static uint32_t kovio_timer;$/;"	v
+kovio_timer_handler	hal/phNxpNciHal_Kovio.c	/^static void kovio_timer_handler(uint32_t timerId, void *pContext)$/;"	f
+len	hal/phNxpNciHal.h	/^    uint16_t len;$/;"	m	struct:nci_data
+length	common/phNfcTypes.h	/^    uint32_t            length;  \/* Buffer length *\/$/;"	m	struct:phNfc_sData
+listAdd	utils/phNxpNciHal_utils.c	/^int listAdd(struct listHead* pList, void* pData)$/;"	f
+listDestroy	utils/phNxpNciHal_utils.c	/^int listDestroy(struct listHead* pList)$/;"	f
+listDump	utils/phNxpNciHal_utils.c	/^void listDump(struct listHead* pList)$/;"	f
+listGetAndRemoveNext	utils/phNxpNciHal_utils.c	/^int listGetAndRemoveNext(struct listHead* pList, void** ppData)$/;"	f
+listHead	utils/phNxpNciHal_utils.h	/^struct listHead$/;"	s
+listInit	utils/phNxpNciHal_utils.c	/^int listInit(struct listHead* pList)$/;"	f
+listNode	utils/phNxpNciHal_utils.h	/^struct listNode$/;"	s
+listRemove	utils/phNxpNciHal_utils.c	/^int listRemove(struct listHead* pList, void* pData)$/;"	f
+mValidFile	utils/phNxpConfig.cpp	/^    bool    mValidFile;$/;"	m	class:CNfcConfig
+m_list	utils/phNxpConfig.cpp	/^    list<const CNfcParam*> m_list;$/;"	m	class:CNfcConfig
+m_numValue	utils/phNxpConfig.cpp	/^    unsigned long   m_numValue;$/;"	m	class:CNfcParam
+m_str_value	utils/phNxpConfig.cpp	/^    string          m_str_value;$/;"	m	class:CNfcParam
+m_timeStamp	utils/phNxpConfig.cpp	/^    unsigned long m_timeStamp;$/;"	m	class:CNfcConfig
+moveFromList	utils/phNxpConfig.cpp	/^void CNfcConfig::moveFromList()$/;"	f	class:CNfcConfig
+moveToList	utils/phNxpConfig.cpp	/^void CNfcConfig::moveToList()$/;"	f	class:CNfcConfig
+mutex	utils/phNxpNciHal_utils.h	/^    pthread_mutex_t mutex;$/;"	m	struct:listHead
+nClientId	common/phNfcTypes.h	/^   uintptr_t              nClientId;$/;"	m	struct:phLibNfc_sConfig
+nCriticalSectionMutex	tml/phDal4Nfc_messageQueueLib.c	/^    pthread_mutex_t nCriticalSectionMutex;$/;"	m	struct:phDal4Nfc_message_queue
+nLinkType	common/phNfcTypes.h	/^   phLibNfc_eConfigLinkType  nLinkType;$/;"	m	struct:phLibNfc_sConfig
+nMsg	tml/phDal4Nfc_messageQueueLib.c	/^    phLibNfc_Message_t nMsg;$/;"	m	struct:phDal4Nfc_message_queue_item
+nProcessSemaphore	tml/phDal4Nfc_messageQueueLib.c	/^    sem_t nProcessSemaphore;$/;"	m	struct:phDal4Nfc_message_queue
+nci_data	hal/phNxpNciHal.h	/^typedef struct nci_data$/;"	s
+nci_data_t	hal/phNxpNciHal.h	/^} nci_data_t;$/;"	t	typeref:struct:nci_data
+nci_device	inc/phNxpNciHal_Adaptation.h	/^    struct nfc_nci_device nci_device;$/;"	m	struct:__anon7	typeref:struct:__anon7::nfc_nci_device
+nci_log_level	log/phNxpLog.h	/^typedef struct nci_log_level$/;"	s
+nci_log_level_t	log/phNxpLog.h	/^} nci_log_level_t;$/;"	t	typeref:struct:nci_log_level
+nci_test_data	self-test/phNxpNciHal_SelfTest.c	/^typedef struct nci_test_data$/;"	s
+nci_test_data_t	self-test/phNxpNciHal_SelfTest.c	/^}nci_test_data_t;$/;"	t	typeref:struct:nci_test_data
+ncir_log_level	log/phNxpLog.h	/^    uint8_t ncir_log_level;$/;"	m	struct:nci_log_level
+ncix_log_level	log/phNxpLog.h	/^    uint8_t ncix_log_level;$/;"	m	struct:nci_log_level
+nfc_close	nfc_nci.c	/^static int nfc_close(hw_device_t *dev)$/;"	f
+nfc_module_methods	nfc_nci.c	/^static struct hw_module_methods_t nfc_module_methods =$/;"	v	typeref:struct:hw_module_methods_t
+nfc_open	nfc_nci.c	/^static int nfc_open(const hw_module_t* module, const char* name,$/;"	f
+ntf_validator	self-test/phNxpNciHal_SelfTest.c	/^    st_validator_t ntf_validator;$/;"	m	struct:nci_test_data
+numValue	utils/phNxpConfig.cpp	/^    unsigned long numValue() const {return m_numValue;}$/;"	f	class:CNfcParam
+nxp_nfc_fw	dnld/phDnldNfc_Internal.h	/^    const uint8_t           *nxp_nfc_fw;           \/* Pointer to firmware version from image *\/$/;"	m	struct:phDnldNfc_DlContext
+nxp_nfc_fw_len	dnld/phDnldNfc_Internal.h	/^    uint16_t                nxp_nfc_fw_len;        \/* Firmware image length *\/$/;"	m	struct:phDnldNfc_DlContext
+nxp_nfc_fwp	dnld/phDnldNfc_Internal.h	/^    const uint8_t           *nxp_nfc_fwp;          \/* Pointer to firmware version from get_version cmd *\/$/;"	m	struct:phDnldNfc_DlContext
+nxp_nfc_fwp_len	dnld/phDnldNfc_Internal.h	/^    uint16_t                nxp_nfc_fwp_len;       \/* Length of firmware image length *\/$/;"	m	struct:phDnldNfc_DlContext
+nxpdta_ctrl	hal/phNxpNciHal_dta.c	/^static phNxpDta_Control_t nxpdta_ctrl = {0,0,0};$/;"	v
+nxpncihal_ctrl	hal/phNxpNciHal.c	/^phNxpNciHal_Control_t nxpncihal_ctrl;$/;"	v
+nxpncihal_monitor	utils/phNxpNciHal_utils.c	/^static phNxpNciHal_Monitor_t *nxpncihal_monitor = NULL;$/;"	v
+nxpprofile_ctrl	hal/phNxpNciHal.c	/^phNxpNciProfile_Control_t nxpprofile_ctrl;$/;"	v
+pBuff	dnld/phDnldNfc.h	/^    uint8_t *pBuff;                  \/*pointer to the buffer where user payload shall be stored*\/$/;"	m	struct:phDnldNfc_Buff
+pBuff	tml/phTmlNfc.h	/^    uint8_t             *pBuff;     \/* Response Data of the Transaction*\/$/;"	m	struct:phTmlNfc_TransactInfo
+pBuffer	tml/phTmlNfc.h	/^    uint8_t *pBuffer; \/*Buffer passed while invocation of operation *\/$/;"	m	struct:phTmlNfc_ReadWriteInfo
+pCallback	common/phNfcTypes.h	/^    pphLibNfc_DeferredCallback_t pCallback;\/* pointer to Deferred callback *\/$/;"	m	struct:phLibNfc_DeferredCall
+pContext	common/phNfcCommon.h	/^    void *pContext;                                     \/* Parameter to be passed to the callback function *\/$/;"	m	struct:phOsalNfc_TimerHandle
+pContext	tml/phTmlNfc.h	/^    void *pContext; \/*Context passed while invocation of operation *\/$/;"	m	struct:phTmlNfc_ReadWriteInfo
+pContext	utils/phNxpNciHal_utils.h	/^    void* pContext;$/;"	m	struct:phNxpNciHal_Sem
+pData	utils/phNxpNciHal_utils.h	/^    void* pData;$/;"	m	struct:listNode
+pDef_call	tml/phTmlNfc.h	/^    pphTmlNfc_DeferFuncPointer_t pDef_call; \/*Deferred callback function to be invoked *\/$/;"	m	struct:__anon5
+pDeferedCall	common/phNfcCommon.h	/^        pphOsalNfc_DeferFuncPointer_t   pDeferedCall;\/* pointer to Deferred callback *\/$/;"	m	struct:phOsalNfc_DeferedCallInfo
+pDevHandle	tml/phTmlNfc.h	/^    void *pDevHandle; \/* Pointer to Device Handle *\/$/;"	m	struct:phTmlNfc_Context
+pDevName	tml/phTmlNfc.h	/^    int8_t *pDevName;$/;"	m	struct:phTmlNfc_Config
+pFirst	utils/phNxpNciHal_utils.h	/^    struct listNode* pFirst;$/;"	m	struct:listHead	typeref:struct:listHead::listNode
+pFwLibHandle	dnld/phDnldNfc.c	/^static void *pFwLibHandle; \/* Global firmware lib handle used in this file only *\/$/;"	v
+pInputBuffer	dnld/phNxpNciHal_Dnld.c	/^    uint8_t  *pInputBuffer;   \/* Buffer containing Rf configurable parameters *\/$/;"	m	struct:phLibNfc_IoctlSetRfConfig
+pItems	tml/phDal4Nfc_messageQueueLib.c	/^    phDal4Nfc_message_queue_item_t * pItems;$/;"	m	struct:phDal4Nfc_message_queue
+pLogFile	common/phNfcCommon.h	/^    uint8_t *pLogFile; \/* Log File Name*\/$/;"	m	struct:phOsalNfc_Config
+pLogFile	common/phNfcTypes.h	/^   uint8_t                 *pLogFile; \/* Log File Name*\/$/;"	m	struct:phLibNfc_sConfig
+pMsgData	common/phNfcTypes.h	/^    void   * pMsgData;   \/* Pointer to message specific data block in case any*\/$/;"	m	struct:phLibNfc_Message
+pNext	tml/phDal4Nfc_messageQueueLib.c	/^    struct phDal4Nfc_message_queue_item * pNext;$/;"	m	struct:phDal4Nfc_message_queue_item	typeref:struct:phDal4Nfc_message_queue_item::phDal4Nfc_message_queue_item
+pNext	utils/phNxpNciHal_utils.h	/^    struct listNode* pNext;$/;"	m	struct:listNode	typeref:struct:listNode::listNode
+pParam	common/phNfcCommon.h	/^        void                            *pParam;    \/* contains timer message specific details*\/$/;"	m	struct:phOsalNfc_DeferedCallInfo
+pParameter	common/phNfcTypes.h	/^    pphLibNfc_DeferredParameter_t pParameter;\/* pointer to Deferred parameter *\/$/;"	m	struct:phLibNfc_DeferredCall
+pParams	tml/phTmlNfc.h	/^    void* pParams;$/;"	m	struct:__anon5
+pPrev	tml/phDal4Nfc_messageQueueLib.c	/^    struct phDal4Nfc_message_queue_item * pPrev;$/;"	m	struct:phDal4Nfc_message_queue_item	typeref:struct:phDal4Nfc_message_queue_item::phDal4Nfc_message_queue_item
+pThread_Callback	tml/phTmlNfc.h	/^    pphTmlNfc_TransactCompletionCb_t pThread_Callback;$/;"	m	struct:phTmlNfc_ReadWriteInfo
+p_cmd_data	hal/phNxpNciHal.h	/^    uint8_t p_cmd_data[NCI_MAX_DATA_LEN];$/;"	m	struct:phNxpNciHal_Control
+p_control_granted_cback	hal/phNxpNciHal.h	/^    phNxpNciHal_control_granted_callback_t *p_control_granted_cback;$/;"	m	struct:phNxpNciHal_Control
+p_data	hal/phNxpNciHal.h	/^    uint8_t p_data[NCI_MAX_DATA_LEN];$/;"	m	struct:nci_data
+p_iso_ntf_buff	hal/phNxpNciHal_NfcDepSWPrio.c	/^static uint8_t *p_iso_ntf_buff = NULL; \/* buffer to store second notification *\/$/;"	v
+p_nfc_stack_cback	hal/phNxpNciHal.h	/^    nfc_stack_callback_t *p_nfc_stack_cback;$/;"	m	struct:phNxpNciHal_Control
+p_nfc_stack_data_cback	hal/phNxpNciHal.h	/^    nfc_stack_data_callback_t *p_nfc_stack_data_cback;$/;"	m	struct:phNxpNciHal_Control
+p_rsp_data	hal/phNxpNciHal.h	/^    uint8_t p_rsp_data[NCI_MAX_DATA_LEN];$/;"	m	struct:phNxpNciHal_Control
+p_rx_data	hal/phNxpNciHal.h	/^    uint8_t  *p_rx_data;$/;"	m	struct:phNxpNciHal_Control
+phAntenna_St_Resp	inc/phNxpNciHal_SelfTest.h	/^typedef struct phAntenna_St_Resp$/;"	s
+phAntenna_St_Resp_t	inc/phNxpNciHal_SelfTest.h	/^}phAntenna_St_Resp_t;           \/* Instance of Transaction structure *\/$/;"	t	typeref:struct:phAntenna_St_Resp
+phAntenna_resp	self-test/phNxpNciHal_SelfTest.c	/^phAntenna_St_Resp_t phAntenna_resp;$/;"	v
+phDal4Nfc_message_queue	tml/phDal4Nfc_messageQueueLib.c	/^typedef struct phDal4Nfc_message_queue$/;"	s
+phDal4Nfc_message_queue_item	tml/phDal4Nfc_messageQueueLib.c	/^typedef struct phDal4Nfc_message_queue_item$/;"	s
+phDal4Nfc_message_queue_item_t	tml/phDal4Nfc_messageQueueLib.c	/^} phDal4Nfc_message_queue_item_t;$/;"	t	typeref:struct:phDal4Nfc_message_queue_item
+phDal4Nfc_message_queue_t	tml/phDal4Nfc_messageQueueLib.c	/^} phDal4Nfc_message_queue_t;$/;"	t	typeref:struct:phDal4Nfc_message_queue
+phDal4Nfc_msgctl	tml/phDal4Nfc_messageQueueLib.c	/^int phDal4Nfc_msgctl(intptr_t msqid, int cmd, void *buf)$/;"	f
+phDal4Nfc_msgget	tml/phDal4Nfc_messageQueueLib.c	/^intptr_t phDal4Nfc_msgget(key_t key, int msgflg)$/;"	f
+phDal4Nfc_msgrcv	tml/phDal4Nfc_messageQueueLib.c	/^int phDal4Nfc_msgrcv(intptr_t msqid, phLibNfc_Message_t * msg, long msgtyp, int msgflg)$/;"	f
+phDal4Nfc_msgrelease	tml/phDal4Nfc_messageQueueLib.c	/^void phDal4Nfc_msgrelease(intptr_t msqid)$/;"	f
+phDal4Nfc_msgsnd	tml/phDal4Nfc_messageQueueLib.c	/^int phDal4Nfc_msgsnd(intptr_t msqid, phLibNfc_Message_t * msg, int msgflg)$/;"	f
+phDnldNfc_Buff	dnld/phDnldNfc.h	/^typedef struct phDnldNfc_Buff$/;"	s
+phDnldNfc_Buff_t	dnld/phDnldNfc.h	/^}phDnldNfc_Buff_t, *pphDnldNfc_Buff_t; \/* pointer to #phDnldNfc_Buff_t *\/$/;"	t	typeref:struct:phDnldNfc_Buff
+phDnldNfc_BuildFramePkt	dnld/phDnldNfc_Internal.c	/^static NFCSTATUS phDnldNfc_BuildFramePkt(pphDnldNfc_DlContext_t pDlContext)$/;"	f
+phDnldNfc_CalcCrc16	dnld/phDnldNfc_Utils.c	/^uint16_t phDnldNfc_CalcCrc16(uint8_t* pBuff, uint16_t wLen)$/;"	f
+phDnldNfc_CheckIntegrity	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_CheckIntegrity(uint8_t bChipVer, pphDnldNfc_Buff_t pCRCData, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_ChkIntg	dnld/phDnldNfc_Internal.h	/^     phDnldNfc_ChkIntg,        \/* user eeprom offset & len to be added for Check Integrity Request *\/$/;"	e	enum:__anon2
+phDnldNfc_ClkFreq	dnld/phDnldNfc.h	/^typedef enum phDnldNfc_ClkFreq{$/;"	g
+phDnldNfc_ClkFreq_13Mhz	dnld/phDnldNfc.h	/^    phDnldNfc_ClkFreq_13Mhz = 0U,    \/* 13Mhz Clk Frequency *\/$/;"	e	enum:phDnldNfc_ClkFreq
+phDnldNfc_ClkFreq_19_2Mhz	dnld/phDnldNfc.h	/^    phDnldNfc_ClkFreq_19_2Mhz = 1U,  \/* 19.2Mhz Clk Frequency *\/$/;"	e	enum:phDnldNfc_ClkFreq
+phDnldNfc_ClkFreq_24Mhz	dnld/phDnldNfc.h	/^    phDnldNfc_ClkFreq_24Mhz = 2U,    \/* 24Mhz Clk Frequency *\/$/;"	e	enum:phDnldNfc_ClkFreq
+phDnldNfc_ClkFreq_26Mhz	dnld/phDnldNfc.h	/^    phDnldNfc_ClkFreq_26Mhz = 3U,    \/* 26Mhz Clk Frequency *\/$/;"	e	enum:phDnldNfc_ClkFreq
+phDnldNfc_ClkFreq_38_4Mhz	dnld/phDnldNfc.h	/^    phDnldNfc_ClkFreq_38_4Mhz = 4U,  \/* 38.4Mhz Clk Frequency *\/$/;"	e	enum:phDnldNfc_ClkFreq
+phDnldNfc_ClkFreq_52Mhz	dnld/phDnldNfc.h	/^    phDnldNfc_ClkFreq_52Mhz = 5U     \/* 52Mhz Clk Frequency *\/$/;"	e	enum:phDnldNfc_ClkFreq
+phDnldNfc_ClkFreq_t	dnld/phDnldNfc.h	/^}phDnldNfc_ClkFreq_t;$/;"	t	typeref:enum:phDnldNfc_ClkFreq
+phDnldNfc_ClkSrc	dnld/phDnldNfc.h	/^typedef enum phDnldNfc_ClkSrc{$/;"	g
+phDnldNfc_ClkSrcPLL	dnld/phDnldNfc.h	/^    phDnldNfc_ClkSrcPLL = 2U,      \/* PLL output *\/$/;"	e	enum:phDnldNfc_ClkSrc
+phDnldNfc_ClkSrcPad	dnld/phDnldNfc.h	/^    phDnldNfc_ClkSrcPad = 3U      \/* Directly use clk on CLK_IN Pad *\/$/;"	e	enum:phDnldNfc_ClkSrc
+phDnldNfc_ClkSrcXtal	dnld/phDnldNfc.h	/^    phDnldNfc_ClkSrcXtal = 1U,     \/* Crystal *\/$/;"	e	enum:phDnldNfc_ClkSrc
+phDnldNfc_ClkSrc_t	dnld/phDnldNfc.h	/^}phDnldNfc_ClkSrc_t;$/;"	t	typeref:enum:phDnldNfc_ClkSrc
+phDnldNfc_CloseFwLibHandle	dnld/phDnldNfc.c	/^void phDnldNfc_CloseFwLibHandle(void)$/;"	f
+phDnldNfc_CmdHandler	dnld/phDnldNfc_Internal.c	/^NFCSTATUS phDnldNfc_CmdHandler(void *pContext, phDnldNfc_Event_t TrigEvent)$/;"	f
+phDnldNfc_CmdId	dnld/phDnldNfc_Cmd.h	/^typedef enum phDnldNfc_CmdId$/;"	g
+phDnldNfc_CmdId_t	dnld/phDnldNfc_Cmd.h	/^}phDnldNfc_CmdId_t;$/;"	t	typeref:enum:phDnldNfc_CmdId
+phDnldNfc_CreateFramePld	dnld/phDnldNfc_Internal.c	/^static NFCSTATUS phDnldNfc_CreateFramePld(pphDnldNfc_DlContext_t pDlContext)$/;"	f
+phDnldNfc_DlContext	dnld/phDnldNfc_Internal.h	/^typedef struct phDnldNfc_DlContext$/;"	s
+phDnldNfc_DlContext_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_DlContext_t,*pphDnldNfc_DlContext_t; \/* pointer to #phDnldNfc_DlContext_t structure *\/$/;"	t	typeref:struct:phDnldNfc_DlContext
+phDnldNfc_EVENT_INT_MAX	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EVENT_INT_MAX          \/* Max Event Count*\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_Event	dnld/phDnldNfc_Internal.h	/^typedef enum phDnldNfc_Event{$/;"	g
+phDnldNfc_EventForce	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventForce,            \/* Force event*\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_EventGetSesnSt	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventGetSesnSt,        \/* Get Session State event*\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_EventGetVer	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventGetVer,           \/* Get Version event*\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_EventIntegChk	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventIntegChk,         \/* Integrity Check event*\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_EventInvalid	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventInvalid = 0x00,   \/*Invalid Event Value*\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_EventLog	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventLog,              \/* Log event*\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_EventRaw	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventRaw,              \/* Raw Req\/Rsp event,used currently for sending NCI RESET cmd *\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_EventRead	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventRead,             \/* Read event*\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_EventReset	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventReset,            \/* Reset event *\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_EventWrite	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_EventWrite,            \/* Write event*\/$/;"	e	enum:phDnldNfc_Event
+phDnldNfc_Event_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_Event_t;$/;"	t	typeref:enum:phDnldNfc_Event
+phDnldNfc_FTForce	dnld/phDnldNfc_Internal.h	/^     phDnldNfc_FTForce,        \/* Frame input for Force cmd request *\/$/;"	e	enum:__anon2
+phDnldNfc_FTLog	dnld/phDnldNfc_Internal.h	/^     phDnldNfc_FTLog,          \/* Frame inputs for Log request *\/$/;"	e	enum:__anon2
+phDnldNfc_FTNone	dnld/phDnldNfc_Internal.h	/^     phDnldNfc_FTNone = 0,     \/* input type None *\/$/;"	e	enum:__anon2
+phDnldNfc_FTRaw	dnld/phDnldNfc_Internal.h	/^     phDnldNfc_FTRaw           \/* Raw Req\/Rsp type *\/$/;"	e	enum:__anon2
+phDnldNfc_FTRead	dnld/phDnldNfc_Internal.h	/^     phDnldNfc_FTRead,         \/* Addr input required for read request *\/$/;"	e	enum:__anon2
+phDnldNfc_FTWrite	dnld/phDnldNfc_Internal.h	/^     phDnldNfc_FTWrite,        \/* Frame inputs for Write request *\/$/;"	e	enum:__anon2
+phDnldNfc_Force	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_Force(pphDnldNfc_Buff_t pInputs, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_FrameInfo	dnld/phDnldNfc_Internal.h	/^typedef struct phDnldNfc_FrameInfo$/;"	s
+phDnldNfc_FrameInfo_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_FrameInfo_t,*pphDnldNfc_FrameInfo_t; \/* pointer to #phDnldNfc_FrameInfo_t *\/$/;"	t	typeref:struct:phDnldNfc_FrameInfo
+phDnldNfc_FrameInput	dnld/phDnldNfc_Internal.h	/^typedef struct phDnldNfc_FrameInput$/;"	s
+phDnldNfc_FrameInputType_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_FrameInputType_t;$/;"	t	typeref:enum:__anon2
+phDnldNfc_FrameInput_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_FrameInput_t, *pphDnldNfc_FrameInput_t;\/* pointer to #phDnldNfc_FrameInput_t *\/$/;"	t	typeref:struct:phDnldNfc_FrameInput
+phDnldNfc_GetSessionState	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_GetSessionState(pphDnldNfc_Buff_t pSession, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_GetVersion	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_GetVersion(pphDnldNfc_Buff_t pVersionInfo, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_InitImgInfo	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_InitImgInfo(void)$/;"	f
+phDnldNfc_LC	dnld/phDnldNfc.h	/^typedef enum phDnldNfc_LC{$/;"	g
+phDnldNfc_LCCreat	dnld/phDnldNfc.h	/^    phDnldNfc_LCCreat = 11,     \/* Life Cycle Creation*\/$/;"	e	enum:phDnldNfc_LC
+phDnldNfc_LCInit	dnld/phDnldNfc.h	/^    phDnldNfc_LCInit = 13,      \/* Life Cycle Initializing *\/$/;"	e	enum:phDnldNfc_LC
+phDnldNfc_LCOper	dnld/phDnldNfc.h	/^    phDnldNfc_LCOper = 17,      \/* Life Cycle Operational *\/$/;"	e	enum:phDnldNfc_LC
+phDnldNfc_LCTerm	dnld/phDnldNfc.h	/^    phDnldNfc_LCTerm = 19       \/* Life Cycle Termination *\/$/;"	e	enum:phDnldNfc_LC
+phDnldNfc_LC_t	dnld/phDnldNfc.h	/^}phDnldNfc_LC_t;$/;"	t	typeref:enum:phDnldNfc_LC
+phDnldNfc_LoadFW	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_LoadFW(const char* pathName, uint8_t **pImgInfo, uint16_t* pImgInfoLen)$/;"	f
+phDnldNfc_LoadPKInfo	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_LoadPKInfo(void)$/;"	f
+phDnldNfc_LoadRecInfo	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_LoadRecInfo(void)$/;"	f
+phDnldNfc_Log	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_Log(pphDnldNfc_Buff_t pData, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_ProcessFrame	dnld/phDnldNfc_Internal.c	/^static NFCSTATUS phDnldNfc_ProcessFrame(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+phDnldNfc_ProcessRWSeqState	dnld/phDnldNfc_Internal.c	/^static void phDnldNfc_ProcessRWSeqState(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+phDnldNfc_ProcessRecvInfo	dnld/phDnldNfc_Internal.c	/^static NFCSTATUS phDnldNfc_ProcessRecvInfo(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+phDnldNfc_ProcessSeqState	dnld/phDnldNfc_Internal.c	/^static void phDnldNfc_ProcessSeqState(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+phDnldNfc_RWInfo	dnld/phDnldNfc_Internal.h	/^typedef struct phDnldNfc_RWInfo$/;"	s
+phDnldNfc_RWInfo_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_RWInfo_t, *pphDnldNfc_RWInfo_t;\/* pointer to #phDnldNfc_RWInfo_t *\/$/;"	t	typeref:struct:phDnldNfc_RWInfo
+phDnldNfc_RawReq	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_RawReq(pphDnldNfc_Buff_t pFrameData, pphDnldNfc_Buff_t pRspData, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_ReSetHwDevHandle	dnld/phDnldNfc.c	/^void phDnldNfc_ReSetHwDevHandle(void)$/;"	f
+phDnldNfc_Read	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_Read(pphDnldNfc_Buff_t pData, uint32_t dwRdAddr, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_ReadComplete	dnld/phDnldNfc.c	/^static void phDnldNfc_ReadComplete(void* pContext,NFCSTATUS status,void* pInfo)$/;"	f
+phDnldNfc_ReadLog	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_ReadLog(pphDnldNfc_Buff_t pData, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_ReadMem	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_ReadMem(void *pHwRef, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_ResendTimeOutCb	dnld/phDnldNfc_Internal.c	/^static void phDnldNfc_ResendTimeOutCb(uint32_t TimerId, void *pContext)$/;"	f
+phDnldNfc_Reset	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_Reset(pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phDnldNfc_RspTimeOutCb	dnld/phDnldNfc_Internal.c	/^static void phDnldNfc_RspTimeOutCb(uint32_t TimerId, void *pContext)$/;"	f
+phDnldNfc_RspTimerInfo	dnld/phDnldNfc_Internal.h	/^typedef struct phDnldNfc_RspTimerInfo$/;"	s
+phDnldNfc_RspTimerInfo_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_RspTimerInfo_t;$/;"	t	typeref:struct:phDnldNfc_RspTimerInfo
+phDnldNfc_SetHwDevHandle	dnld/phDnldNfc.c	/^void phDnldNfc_SetHwDevHandle(void)$/;"	f
+phDnldNfc_SetupResendTimer	dnld/phDnldNfc_Internal.c	/^static NFCSTATUS phDnldNfc_SetupResendTimer(pphDnldNfc_DlContext_t pDlContext)$/;"	f
+phDnldNfc_State	dnld/phDnldNfc_Internal.h	/^typedef enum phDnldNfc_State{$/;"	g
+phDnldNfc_StateInit	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_StateInit=0x00,        \/* Handler init state *\/$/;"	e	enum:phDnldNfc_State
+phDnldNfc_StateInvalid	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_StateInvalid           \/* Invalid Handler state *\/$/;"	e	enum:phDnldNfc_State
+phDnldNfc_StatePipelined	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_StatePipelined,        \/* Write requests to be pipelined state *\/$/;"	e	enum:phDnldNfc_State
+phDnldNfc_StateRecv	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_StateRecv,             \/* Recv Send complete State *\/$/;"	e	enum:phDnldNfc_State
+phDnldNfc_StateResponse	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_StateResponse,         \/* Process response from PN547 state *\/$/;"	e	enum:phDnldNfc_State
+phDnldNfc_StateSend	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_StateSend,             \/* Send frame to PN547 state *\/$/;"	e	enum:phDnldNfc_State
+phDnldNfc_StateTimer	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_StateTimer,            \/* State to stop prev set timer on Recv or handle timed out scenario *\/$/;"	e	enum:phDnldNfc_State
+phDnldNfc_State_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_State_t;$/;"	t	typeref:enum:phDnldNfc_State
+phDnldNfc_Status	dnld/phDnldNfc_Status.h	/^typedef enum phDnldNfc_Status$/;"	g
+phDnldNfc_Status_t	dnld/phDnldNfc_Status.h	/^} phDnldNfc_Status_t ;$/;"	t	typeref:enum:phDnldNfc_Status
+phDnldNfc_Transition	dnld/phDnldNfc_Internal.h	/^typedef enum phDnldNfc_Transition{$/;"	g
+phDnldNfc_TransitionBusy	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_TransitionBusy,             \/* Handler is busy processing download request *\/$/;"	e	enum:phDnldNfc_Transition
+phDnldNfc_TransitionIdle	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_TransitionIdle = 0x00,      \/* Handler in Idle state - No Download in progress *\/$/;"	e	enum:phDnldNfc_Transition
+phDnldNfc_TransitionInvalid	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_TransitionInvalid           \/* Invalid Handler Transition *\/$/;"	e	enum:phDnldNfc_Transition
+phDnldNfc_Transition_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_Transition_t;$/;"	t	typeref:enum:phDnldNfc_Transition
+phDnldNfc_UnloadFW	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_UnloadFW(void)$/;"	f
+phDnldNfc_UpdateRsp	dnld/phDnldNfc_Internal.c	/^static NFCSTATUS phDnldNfc_UpdateRsp(pphDnldNfc_DlContext_t   pDlContext, phTmlNfc_TransactInfo_t  *pInfo, uint16_t wPldLen)$/;"	f
+phDnldNfc_Write	dnld/phDnldNfc.c	/^NFCSTATUS phDnldNfc_Write(bool_t  bRecoverSeq, pphDnldNfc_Buff_t pData, pphDnldNfc_RspCb_t pNotify, void *pContext)$/;"	f
+phHal_eRemDevType_t	common/phNfcTypes.h	/^typedef phNfc_eRemDevType_t phHal_eRemDevType_t;$/;"	t
+phLibNfc_DeferredCall	common/phNfcTypes.h	/^typedef struct phLibNfc_DeferredCall$/;"	s
+phLibNfc_DeferredCall_t	common/phNfcTypes.h	/^} phLibNfc_DeferredCall_t;$/;"	t	typeref:struct:phLibNfc_DeferredCall
+phLibNfc_EELogParams	dnld/phNxpNciHal_Dnld.c	/^typedef struct phLibNfc_EELogParams$/;"	s
+phLibNfc_EELogParams_t	dnld/phNxpNciHal_Dnld.c	/^} phLibNfc_EELogParams_t;$/;"	t	typeref:struct:phLibNfc_EELogParams
+phLibNfc_IoctlSetRfConfig	dnld/phNxpNciHal_Dnld.c	/^typedef struct phLibNfc_IoctlSetRfConfig$/;"	s
+phLibNfc_IoctlSetRfConfig	dnld/phNxpNciHal_Dnld.c	/^}phLibNfc_IoctlSetRfConfig;$/;"	t	typeref:struct:phLibNfc_IoctlSetRfConfig
+phLibNfc_Message	common/phNfcTypes.h	/^typedef struct phLibNfc_Message$/;"	s
+phLibNfc_Message_t	common/phNfcTypes.h	/^} phLibNfc_Message_t,*pphLibNfc_Message_t;$/;"	t	typeref:struct:phLibNfc_Message
+phLibNfc_VerifyCrcStatus	dnld/phNxpNciHal_Dnld.c	/^phLibNfc_VerifyCrcStatus(uint8_t bCrcStatus)$/;"	f
+phLibNfc_eConfigLinkType	common/phNfcTypes.h	/^} phLibNfc_eConfigLinkType;$/;"	t	typeref:enum:__anon13
+phLibNfc_sConfig	common/phNfcTypes.h	/^typedef struct phLibNfc_sConfig$/;"	s
+phLibNfc_sConfig_t	common/phNfcTypes.h	/^} phLibNfc_sConfig_t, *pphLibNfc_sConfig_t;$/;"	t	typeref:struct:phLibNfc_sConfig
+phNfc_eEpcGen2_PCD	common/phNfcTypes.h	/^    phNfc_eEpcGen2_PCD,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eEpcGen2_PICC	common/phNfcTypes.h	/^    phNfc_eEpcGen2_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eFelica_PCD	common/phNfcTypes.h	/^    phNfc_eFelica_PCD,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eFelica_PICC	common/phNfcTypes.h	/^    phNfc_eFelica_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO14443_3A_PICC	common/phNfcTypes.h	/^    phNfc_eISO14443_3A_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO14443_4A_PICC	common/phNfcTypes.h	/^    phNfc_eISO14443_4A_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO14443_4B_PICC	common/phNfcTypes.h	/^    phNfc_eISO14443_4B_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO14443_A_PCD	common/phNfcTypes.h	/^    phNfc_eISO14443_A_PCD,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO14443_A_PICC	common/phNfcTypes.h	/^    phNfc_eISO14443_A_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO14443_BPrime_PCD	common/phNfcTypes.h	/^    phNfc_eISO14443_BPrime_PCD,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO14443_BPrime_PICC	common/phNfcTypes.h	/^    phNfc_eISO14443_BPrime_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO14443_B_PCD	common/phNfcTypes.h	/^    phNfc_eISO14443_B_PCD,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO14443_B_PICC	common/phNfcTypes.h	/^    phNfc_eISO14443_B_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO15693_PCD	common/phNfcTypes.h	/^    phNfc_eISO15693_PCD,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eISO15693_PICC	common/phNfcTypes.h	/^    phNfc_eISO15693_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eInvalid_DevType	common/phNfcTypes.h	/^    phNfc_eInvalid_DevType$/;"	e	enum:phNfc_eRFDevType
+phNfc_eJewel_PCD	common/phNfcTypes.h	/^    phNfc_eJewel_PCD,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eJewel_PICC	common/phNfcTypes.h	/^    phNfc_eJewel_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eMifareAuth	common/phNfcTypes.h	/^    phNfc_eMifareAuth       = 0x04,      \/* Proprietary Command *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareAuthentA	common/phNfcTypes.h	/^    phNfc_eMifareAuthentA   = 0x60U,     \/* This command performs an authentication with KEY A for a sector. *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareAuthentB	common/phNfcTypes.h	/^    phNfc_eMifareAuthentB   = 0x61U,     \/* This command performs an authentication with KEY B for a sector. *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareCmdList	common/phNfcTypes.h	/^typedef enum phNfc_eMifareCmdList$/;"	g
+phNfc_eMifareCmdList_t	common/phNfcTypes.h	/^} phNfc_eMifareCmdList_t;$/;"	t	typeref:enum:phNfc_eMifareCmdList
+phNfc_eMifareDec	common/phNfcTypes.h	/^    phNfc_eMifareDec        = 0xC0U,     \/* Decrement *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareInc	common/phNfcTypes.h	/^    phNfc_eMifareInc        = 0xC1U,     \/* Increment *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareInvalidCmd	common/phNfcTypes.h	/^    phNfc_eMifareInvalidCmd = 0xFFU      \/* Invalid Command *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareProxCheck	common/phNfcTypes.h	/^    phNfc_eMifareProxCheck  = 0x05,      \/* Proprietary Command *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareRaw	common/phNfcTypes.h	/^    phNfc_eMifareRaw        = 0x00U,     \/* This command performs raw transcations *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareRead	common/phNfcTypes.h	/^    phNfc_eMifareRead       = 0x30U,     \/* Read Mifare Standard *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareRead16	common/phNfcTypes.h	/^    phNfc_eMifareRead16     = 0x30U,     \/* Read 16 Bytes from a Mifare Standard block *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareReadN	common/phNfcTypes.h	/^    phNfc_eMifareReadN      = 0x01,      \/* Proprietary Command *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareReadSector	common/phNfcTypes.h	/^    phNfc_eMifareReadSector = 0x38U,     \/* Read Sector.   *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareRestore	common/phNfcTypes.h	/^    phNfc_eMifareRestore    = 0xC2U,     \/* Restore.   *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareSectorSel	common/phNfcTypes.h	/^    phNfc_eMifareSectorSel  = 0x03,      \/* Proprietary Command *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareTransfer	common/phNfcTypes.h	/^    phNfc_eMifareTransfer   = 0xB0U,     \/* Transfer *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareWrite16	common/phNfcTypes.h	/^    phNfc_eMifareWrite16    = 0xA0U,     \/* Write 16 Bytes to a Mifare Standard block *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareWrite4	common/phNfcTypes.h	/^    phNfc_eMifareWrite4     = 0xA2U,     \/* Write 4 bytes. *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareWriteN	common/phNfcTypes.h	/^    phNfc_eMifareWriteN     = 0x02,      \/* Proprietary Command *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifareWriteSector	common/phNfcTypes.h	/^    phNfc_eMifareWriteSector= 0xA8U,     \/* Write Sector.   *\/$/;"	e	enum:phNfc_eMifareCmdList
+phNfc_eMifare_PICC	common/phNfcTypes.h	/^    phNfc_eMifare_PICC,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eNfcIP1_Initiator	common/phNfcTypes.h	/^    phNfc_eNfcIP1_Initiator,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eNfcIP1_Target	common/phNfcTypes.h	/^    phNfc_eNfcIP1_Target,$/;"	e	enum:phNfc_eRFDevType
+phNfc_ePCD_DevType	common/phNfcTypes.h	/^    phNfc_ePCD_DevType,$/;"	e	enum:phNfc_eRFDevType
+phNfc_ePICC_DevType	common/phNfcTypes.h	/^    phNfc_ePICC_DevType,$/;"	e	enum:phNfc_eRFDevType
+phNfc_eRFDevType	common/phNfcTypes.h	/^typedef enum phNfc_eRFDevType$/;"	g
+phNfc_eRFDevType_t	common/phNfcTypes.h	/^}phNfc_eRFDevType_t;$/;"	t	typeref:enum:phNfc_eRFDevType
+phNfc_eRemDevType_t	common/phNfcTypes.h	/^typedef phNfc_eRFDevType_t phNfc_eRemDevType_t;$/;"	t
+phNfc_eUnknown_DevType	common/phNfcTypes.h	/^    phNfc_eUnknown_DevType        = 0x00U,$/;"	e	enum:phNfc_eRFDevType
+phNfc_sData	common/phNfcTypes.h	/^typedef struct phNfc_sData$/;"	s
+phNfc_sData_t	common/phNfcTypes.h	/^} phNfc_sData_t;$/;"	t	typeref:struct:phNfc_sData
+phNfc_sIso14443AInfo	common/phNfcTypes.h	/^typedef struct phNfc_sIso14443AInfo$/;"	s
+phNfc_sIso14443AInfo_t	common/phNfcTypes.h	/^}phNfc_sIso14443AInfo_t;$/;"	t	typeref:struct:phNfc_sIso14443AInfo
+phNfc_sRemoteDevInformation	common/phNfcTypes.h	/^typedef struct phNfc_sRemoteDevInformation$/;"	s
+phNfc_sRemoteDevInformation_t	common/phNfcTypes.h	/^}phNfc_sRemoteDevInformation_t;$/;"	t	typeref:struct:phNfc_sRemoteDevInformation
+phNfc_sSupProtocol	common/phNfcTypes.h	/^typedef struct phNfc_sSupProtocol$/;"	s
+phNfc_sSupProtocol_t	common/phNfcTypes.h	/^}phNfc_sSupProtocol_t;$/;"	t	typeref:struct:phNfc_sSupProtocol
+phNfc_sTransceiveInfo	common/phNfcTypes.h	/^typedef struct phNfc_sTransceiveInfo$/;"	s
+phNfc_sTransceiveInfo_t	common/phNfcTypes.h	/^}phNfc_sTransceiveInfo_t;$/;"	t	typeref:struct:phNfc_sTransceiveInfo
+phNfc_uCmdList_t	common/phNfcTypes.h	/^}phNfc_uCmdList_t;$/;"	t	typeref:union:phNfc_uCommand
+phNfc_uCommand	common/phNfcTypes.h	/^typedef union phNfc_uCommand$/;"	u
+phNfc_uRemoteDevInfo	common/phNfcTypes.h	/^typedef union phNfc_uRemoteDevInfo$/;"	u
+phNfc_uRemoteDevInfo_t	common/phNfcTypes.h	/^}phNfc_uRemoteDevInfo_t;$/;"	t	typeref:union:phNfc_uRemoteDevInfo
+phNxpDisable_DtaMode	hal/phNxpNciHal_dta.c	/^void phNxpDisable_DtaMode (void)$/;"	f
+phNxpDta_Control	hal/phNxpNciHal_dta.h	/^typedef struct phNxpDta_Control$/;"	s
+phNxpDta_Control_t	hal/phNxpNciHal_dta.h	/^}phNxpDta_Control_t;$/;"	t	typeref:struct:phNxpDta_Control
+phNxpDta_IsEnable	hal/phNxpNciHal_dta.c	/^NFCSTATUS phNxpDta_IsEnable(void)$/;"	f
+phNxpDta_T1TEnable	hal/phNxpNciHal_dta.c	/^void phNxpDta_T1TEnable(void)$/;"	f
+phNxpEnable_DtaMode	hal/phNxpNciHal_dta.c	/^void phNxpEnable_DtaMode (uint16_t pattern_no)$/;"	f
+phNxpLog_InitializeLogLevel	log/phNxpLog.c	/^void phNxpLog_InitializeLogLevel(void)$/;"	f
+phNxpLog_SetDnldLogLevel	log/phNxpLog.c	/^static void phNxpLog_SetDnldLogLevel (uint8_t level)$/;"	f
+phNxpLog_SetExtnsLogLevel	log/phNxpLog.c	/^static void phNxpLog_SetExtnsLogLevel (uint8_t level)$/;"	f
+phNxpLog_SetGlobalLogLevel	log/phNxpLog.c	/^static uint8_t phNxpLog_SetGlobalLogLevel (void)$/;"	f
+phNxpLog_SetHALLogLevel	log/phNxpLog.c	/^static void phNxpLog_SetHALLogLevel (uint8_t level)$/;"	f
+phNxpLog_SetNciTxLogLevel	log/phNxpLog.c	/^static void phNxpLog_SetNciTxLogLevel (uint8_t level)$/;"	f
+phNxpLog_SetTmlLogLevel	log/phNxpLog.c	/^static void phNxpLog_SetTmlLogLevel (uint8_t level)$/;"	f
+phNxpNHal_DtaUpdate	hal/phNxpNciHal_dta.c	/^NFCSTATUS phNxpNHal_DtaUpdate(uint16_t *cmd_len, uint8_t *p_cmd_data,$/;"	f
+phNxpNciHal_AntennaSelfTest	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_AntennaSelfTest(phAntenna_St_Resp_t * phAntenna_St_Resp )$/;"	f
+phNxpNciHal_AntennaTest	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_AntennaTest ()$/;"	f
+phNxpNciHal_CheckValidFwVersion	hal/phNxpNciHal.c	/^static NFCSTATUS phNxpNciHal_CheckValidFwVersion(void)$/;"	f
+phNxpNciHal_Control	hal/phNxpNciHal.h	/^typedef struct phNxpNciHal_Control$/;"	s
+phNxpNciHal_Control_t	hal/phNxpNciHal.h	/^} phNxpNciHal_Control_t;$/;"	t	typeref:struct:phNxpNciHal_Control
+phNxpNciHal_DownloadPinTest	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_DownloadPinTest(void)$/;"	f
+phNxpNciHal_Monitor	utils/phNxpNciHal_utils.h	/^typedef struct phNxpNciHal_Monitor$/;"	s
+phNxpNciHal_Monitor_t	utils/phNxpNciHal_utils.h	/^} phNxpNciHal_Monitor_t;$/;"	t	typeref:struct:phNxpNciHal_Monitor
+phNxpNciHal_NfcDep_cmd_ext	hal/phNxpNciHal_NfcDepSWPrio.c	/^void phNxpNciHal_NfcDep_cmd_ext(uint8_t *p_cmd_data, uint16_t *cmd_len)$/;"	f
+phNxpNciHal_NfcDep_comapre_ntf	hal/phNxpNciHal_NfcDepSWPrio.c	/^NFCSTATUS phNxpNciHal_NfcDep_comapre_ntf(uint8_t *p_cmd_data, uint16_t cmd_len)$/;"	f
+phNxpNciHal_NfcDep_rsp_ext	hal/phNxpNciHal_NfcDepSWPrio.c	/^NFCSTATUS phNxpNciHal_NfcDep_rsp_ext(uint8_t *p_ntf, uint16_t *p_len)$/;"	f
+phNxpNciHal_NfcDep_store_ntf	hal/phNxpNciHal_NfcDepSWPrio.c	/^static void phNxpNciHal_NfcDep_store_ntf(uint8_t *p_cmd_data, uint16_t cmd_len)$/;"	f
+phNxpNciHal_PrbsTestStart	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_PrbsTestStart (phNxpNfc_Tech_t tech, phNxpNfc_Bitrate_t bitrate)$/;"	f
+phNxpNciHal_PrbsTestStop	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_PrbsTestStop ()$/;"	f
+phNxpNciHal_RfFieldTest	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_RfFieldTest (uint8_t on)$/;"	f
+phNxpNciHal_Sem	utils/phNxpNciHal_utils.h	/^typedef struct phNxpNciHal_Sem$/;"	s
+phNxpNciHal_Sem_t	utils/phNxpNciHal_utils.h	/^} phNxpNciHal_Sem_t;$/;"	t	typeref:struct:phNxpNciHal_Sem
+phNxpNciHal_SwpTest	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_SwpTest(uint8_t swp_line)$/;"	f
+phNxpNciHal_TestMode_close	self-test/phNxpNciHal_SelfTest.c	/^void phNxpNciHal_TestMode_close ()$/;"	f
+phNxpNciHal_TestMode_open	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_TestMode_open (void)$/;"	f
+phNxpNciHal_check_factory_reset	hal/phNxpNciHal.c	/^static void phNxpNciHal_check_factory_reset(void)$/;"	f
+phNxpNciHal_clean_Kovio_Ext	hal/phNxpNciHal_Kovio.c	/^void phNxpNciHal_clean_Kovio_Ext()$/;"	f
+phNxpNciHal_clean_P2P_Prio	hal/phNxpNciHal_NfcDepSWPrio.c	/^extern NFCSTATUS phNxpNciHal_clean_P2P_Prio()$/;"	f
+phNxpNciHal_cleanup_cb_data	utils/phNxpNciHal_utils.c	/^void phNxpNciHal_cleanup_cb_data(phNxpNciHal_Sem_t* pCallbackData)$/;"	f
+phNxpNciHal_cleanup_monitor	utils/phNxpNciHal_utils.c	/^void phNxpNciHal_cleanup_monitor(void)$/;"	f
+phNxpNciHal_client_thread	hal/phNxpNciHal.c	/^static void *phNxpNciHal_client_thread(void *arg)$/;"	f
+phNxpNciHal_close	hal/phNxpNciHal.c	/^int phNxpNciHal_close(void)$/;"	f
+phNxpNciHal_close_complete	hal/phNxpNciHal.c	/^void phNxpNciHal_close_complete(NFCSTATUS status)$/;"	f
+phNxpNciHal_control_granted	hal/phNxpNciHal.c	/^int phNxpNciHal_control_granted(void)$/;"	f
+phNxpNciHal_control_granted_callback_t	hal/phNxpNciHal.h	/^typedef void (phNxpNciHal_control_granted_callback_t)();$/;"	t
+phNxpNciHal_core_initialized	hal/phNxpNciHal.c	/^int phNxpNciHal_core_initialized(uint8_t* p_core_init_rsp_params)$/;"	f
+phNxpNciHal_core_initialized_complete	hal/phNxpNciHal.c	/^static void phNxpNciHal_core_initialized_complete(NFCSTATUS status)$/;"	f
+phNxpNciHal_dwnld_log_seqhandler	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS (*phNxpNciHal_dwnld_log_seqhandler[])($/;"	v
+phNxpNciHal_dwnld_rec_seqhandler	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS (*phNxpNciHal_dwnld_rec_seqhandler[])($/;"	v
+phNxpNciHal_dwnld_seqhandler	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS (*phNxpNciHal_dwnld_seqhandler[])($/;"	v
+phNxpNciHal_emergency_recovery	utils/phNxpNciHal_utils.c	/^void phNxpNciHal_emergency_recovery(void)$/;"	f
+phNxpNciHal_enable_i2c_fragmentation	hal/phNxpNciHal.c	/^void phNxpNciHal_enable_i2c_fragmentation()$/;"	f
+phNxpNciHal_ext_init	hal/phNxpNciHal_ext.c	/^void phNxpNciHal_ext_init (void)$/;"	f
+phNxpNciHal_fw_Ioctl_Cntx_t	dnld/phNxpNciHal_Dnld.c	/^} phNxpNciHal_fw_Ioctl_Cntx_t;$/;"	t	typeref:struct:__anon1
+phNxpNciHal_fw_dnld_chk_integrity	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_chk_integrity(void* pContext,$/;"	f
+phNxpNciHal_fw_dnld_chk_integrity_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_chk_integrity_cb(void* pContext,$/;"	f
+phNxpNciHal_fw_dnld_complete	dnld/phNxpNciHal_Dnld.c	/^static  NFCSTATUS phNxpNciHal_fw_dnld_complete(void* pContext,NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_force	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_force(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_force_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_force_cb(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_get_sessn_state	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_get_sessn_state(void* pContext,$/;"	f
+phNxpNciHal_fw_dnld_get_sessn_state_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_get_sessn_state_cb(void* pContext,$/;"	f
+phNxpNciHal_fw_dnld_get_version	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_get_version(void* pContext,$/;"	f
+phNxpNciHal_fw_dnld_get_version_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_get_version_cb(void* pContext,$/;"	f
+phNxpNciHal_fw_dnld_log	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_log(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_log_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_log_cb(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_log_read	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_log_read(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_log_read_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_log_read_cb(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_normal	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_normal(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_normal_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_normal_cb(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_recover	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS  phNxpNciHal_fw_dnld_recover(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_recover_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_recover_cb(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_reset	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_reset(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_reset_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_reset_cb(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_send_ncicmd	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_send_ncicmd(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_send_ncicmd_cb	dnld/phNxpNciHal_Dnld.c	/^static  void phNxpNciHal_fw_dnld_send_ncicmd_cb(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_write	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_dnld_write(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_dnld_write_cb	dnld/phNxpNciHal_Dnld.c	/^static void phNxpNciHal_fw_dnld_write_cb(void* pContext, NFCSTATUS status,$/;"	f
+phNxpNciHal_fw_download	hal/phNxpNciHal.c	/^static NFCSTATUS phNxpNciHal_fw_download(void)$/;"	f
+phNxpNciHal_fw_download_seq	dnld/phNxpNciHal_Dnld.c	/^NFCSTATUS phNxpNciHal_fw_download_seq(uint8_t bClkSrcVal, uint8_t bClkFreqVal)$/;"	f
+phNxpNciHal_fw_seq_handler	dnld/phNxpNciHal_Dnld.c	/^static NFCSTATUS phNxpNciHal_fw_seq_handler(NFCSTATUS (*seq_handler[])(void* pContext, NFCSTATUS status, void* pInfo))$/;"	f
+phNxpNciHal_getPrbsCmd	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_getPrbsCmd (uint8_t tech, uint8_t bitrate, uint8_t *prbs_cmd, uint8_t prbs_cmd_len)$/;"	f
+phNxpNciHal_get_clk_freq	hal/phNxpNciHal.c	/^static void phNxpNciHal_get_clk_freq(void)$/;"	f
+phNxpNciHal_get_monitor	utils/phNxpNciHal_utils.c	/^phNxpNciHal_get_monitor(void)$/;"	f
+phNxpNciHal_init_cb_data	utils/phNxpNciHal_utils.c	/^NFCSTATUS phNxpNciHal_init_cb_data(phNxpNciHal_Sem_t *pCallbackData,$/;"	f
+phNxpNciHal_init_monitor	utils/phNxpNciHal_utils.c	/^phNxpNciHal_init_monitor(void)$/;"	f
+phNxpNciHal_kill_client_thread	hal/phNxpNciHal.c	/^static void phNxpNciHal_kill_client_thread(phNxpNciHal_Control_t *p_nxpncihal_ctrl)$/;"	f
+phNxpNciHal_kovio_rsp_ext	hal/phNxpNciHal_Kovio.c	/^NFCSTATUS phNxpNciHal_kovio_rsp_ext(uint8_t *p_ntf, uint16_t *p_len)$/;"	f
+phNxpNciHal_notify_i2c_fragmentation	hal/phNxpNciHal.c	/^void phNxpNciHal_notify_i2c_fragmentation(void)$/;"	f
+phNxpNciHal_open	hal/phNxpNciHal.c	/^int phNxpNciHal_open(nfc_stack_callback_t *p_cback, nfc_stack_data_callback_t *p_data_cback)$/;"	f
+phNxpNciHal_open_complete	hal/phNxpNciHal.c	/^static void phNxpNciHal_open_complete(NFCSTATUS status)$/;"	f
+phNxpNciHal_performTest	self-test/phNxpNciHal_SelfTest.c	/^NFCSTATUS phNxpNciHal_performTest(nci_test_data_t *pData )$/;"	f
+phNxpNciHal_power_cycle	hal/phNxpNciHal.c	/^int phNxpNciHal_power_cycle(void)$/;"	f
+phNxpNciHal_power_cycle_complete	hal/phNxpNciHal.c	/^static void phNxpNciHal_power_cycle_complete(NFCSTATUS status)$/;"	f
+phNxpNciHal_pre_discover	hal/phNxpNciHal.c	/^int phNxpNciHal_pre_discover(void)$/;"	f
+phNxpNciHal_pre_discover_complete	hal/phNxpNciHal.c	/^static void phNxpNciHal_pre_discover_complete(NFCSTATUS status)$/;"	f
+phNxpNciHal_print_packet	utils/phNxpNciHal_utils.c	/^void phNxpNciHal_print_packet(const char *pString, const uint8_t *p_data,$/;"	f
+phNxpNciHal_print_res_status	hal/phNxpNciHal.c	/^static void phNxpNciHal_print_res_status( uint8_t *p_rx_data)$/;"	f
+phNxpNciHal_process_ext_cmd_rsp	hal/phNxpNciHal_ext.c	/^static NFCSTATUS phNxpNciHal_process_ext_cmd_rsp(uint16_t cmd_len, uint8_t *p_cmd)$/;"	f
+phNxpNciHal_process_ext_rsp	hal/phNxpNciHal_ext.c	/^NFCSTATUS phNxpNciHal_process_ext_rsp (uint8_t *p_ntf, uint16_t *p_len)$/;"	f
+phNxpNciHal_readLocked	self-test/phNxpNciHal_SelfTest.c	/^static NFCSTATUS phNxpNciHal_readLocked(nci_test_data_t *pData )$/;"	f
+phNxpNciHal_read_complete	hal/phNxpNciHal.c	/^static void phNxpNciHal_read_complete(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+phNxpNciHal_release_control	hal/phNxpNciHal.c	/^void phNxpNciHal_release_control(void)$/;"	f
+phNxpNciHal_releaseall_cb_data	utils/phNxpNciHal_utils.c	/^void phNxpNciHal_releaseall_cb_data(void)$/;"	f
+phNxpNciHal_request_control	hal/phNxpNciHal.c	/^void phNxpNciHal_request_control(void)$/;"	f
+phNxpNciHal_resume_polling_loop	hal/phNxpNciHal_NfcDepSWPrio.c	/^static NFCSTATUS phNxpNciHal_resume_polling_loop()$/;"	f
+phNxpNciHal_rf_deactivate	hal/phNxpNciHal_Kovio.c	/^static NFCSTATUS phNxpNciHal_rf_deactivate()$/;"	f
+phNxpNciHal_select_RF_Discovery	hal/phNxpNciHal_NfcDepSWPrio.c	/^NFCSTATUS phNxpNciHal_select_RF_Discovery(unsigned int RfID,unsigned int RfProtocolType)$/;"	f
+phNxpNciHal_send_ext_cmd	hal/phNxpNciHal_ext.c	/^NFCSTATUS phNxpNciHal_send_ext_cmd(uint16_t cmd_len, uint8_t *p_cmd)$/;"	f
+phNxpNciHal_set_clock	hal/phNxpNciHal.c	/^static void phNxpNciHal_set_clock(void)$/;"	f
+phNxpNciHal_start_polling_loop	hal/phNxpNciHal_NfcDepSWPrio.c	/^NFCSTATUS phNxpNciHal_start_polling_loop()$/;"	f
+phNxpNciHal_stop_polling_loop	hal/phNxpNciHal_NfcDepSWPrio.c	/^static NFCSTATUS phNxpNciHal_stop_polling_loop()$/;"	f
+phNxpNciHal_test_rx_thread	self-test/phNxpNciHal_SelfTest.c	/^static void *phNxpNciHal_test_rx_thread(void *arg)$/;"	f
+phNxpNciHal_write	hal/phNxpNciHal.c	/^int phNxpNciHal_write(uint16_t data_len, const uint8_t *p_data)$/;"	f
+phNxpNciHal_writeLocked	self-test/phNxpNciHal_SelfTest.c	/^static NFCSTATUS phNxpNciHal_writeLocked(nci_test_data_t *pData )$/;"	f
+phNxpNciHal_write_complete	hal/phNxpNciHal.c	/^static void phNxpNciHal_write_complete(void *pContext, phTmlNfc_TransactInfo_t *pInfo)$/;"	f
+phNxpNciHal_write_ext	hal/phNxpNciHal_ext.c	/^NFCSTATUS phNxpNciHal_write_ext(uint16_t *cmd_len, uint8_t *p_cmd_data,$/;"	f
+phNxpNciHal_write_unlocked	hal/phNxpNciHal.c	/^int phNxpNciHal_write_unlocked(uint16_t data_len, const uint8_t *p_data)$/;"	f
+phNxpNciProfile_Control	hal/phNxpNciHal.h	/^typedef struct phNxpNciProfile_Control$/;"	s
+phNxpNciProfile_Control_t	hal/phNxpNciHal.h	/^} phNxpNciProfile_Control_t;$/;"	t	typeref:struct:phNxpNciProfile_Control
+phNxpNciProfile_t	hal/phNxpNciHal.h	/^}phNxpNciProfile_t;$/;"	t	typeref:enum:__anon11
+phNxpNci_HalStatus	hal/phNxpNciHal.h	/^} phNxpNci_HalStatus;$/;"	t	typeref:enum:__anon10
+phNxpNfc_Bitrate_t	inc/phNxpNciHal_SelfTest.h	/^} phNxpNfc_Bitrate_t;$/;"	t	typeref:enum:__anon9
+phNxpNfc_Tech_t	inc/phNxpNciHal_SelfTest.h	/^} phNxpNfc_Tech_t;$/;"	t	typeref:enum:__anon8
+phOsalNfc_CheckTimerPresence	tml/phOsalNfc_Timer.c	/^NFCSTATUS phOsalNfc_CheckTimerPresence(void *pObjectHandle)$/;"	f
+phOsalNfc_Config	common/phNfcCommon.h	/^typedef struct phOsalNfc_Config$/;"	s
+phOsalNfc_Config_t	common/phNfcCommon.h	/^}phOsalNfc_Config_t, *pphOsalNfc_Config_t \/* Pointer to #phOsalNfc_Config_t *\/;$/;"	t	typeref:struct:phOsalNfc_Config
+phOsalNfc_DeferedCallInfo	common/phNfcCommon.h	/^typedef struct phOsalNfc_DeferedCallInfo$/;"	s
+phOsalNfc_DeferedCallInfo_t	common/phNfcCommon.h	/^}phOsalNfc_DeferedCallInfo_t;$/;"	t	typeref:struct:phOsalNfc_DeferedCallInfo
+phOsalNfc_DeferredCall	tml/phOsalNfc_Timer.c	/^static void phOsalNfc_DeferredCall (void *pParams)$/;"	f
+phOsalNfc_PostTimerMsg	tml/phOsalNfc_Timer.c	/^static void phOsalNfc_PostTimerMsg(phLibNfc_Message_t *pMsg)$/;"	f
+phOsalNfc_TimerHandle	common/phNfcCommon.h	/^typedef struct phOsalNfc_TimerHandle$/;"	s
+phOsalNfc_TimerHandle_t	common/phNfcCommon.h	/^}phOsalNfc_TimerHandle_t,*pphOsalNfc_TimerHandle_t;     \/* Variables for Structure Instance and Structure Ptr *\/$/;"	t	typeref:struct:phOsalNfc_TimerHandle
+phOsalNfc_TimerStates_t	common/phNfcCommon.h	/^}phOsalNfc_TimerStates_t;   \/* Variable representing State of timer *\/$/;"	t	typeref:enum:__anon12
+phOsalNfc_Timer_Cleanup	tml/phOsalNfc_Timer.c	/^void phOsalNfc_Timer_Cleanup(void)$/;"	f
+phOsalNfc_Timer_Create	tml/phOsalNfc_Timer.c	/^uint32_t phOsalNfc_Timer_Create(void)$/;"	f
+phOsalNfc_Timer_Delete	tml/phOsalNfc_Timer.c	/^NFCSTATUS phOsalNfc_Timer_Delete(uint32_t dwTimerId)$/;"	f
+phOsalNfc_Timer_Expired	tml/phOsalNfc_Timer.c	/^static void phOsalNfc_Timer_Expired(union sigval sv)$/;"	f
+phOsalNfc_Timer_Start	tml/phOsalNfc_Timer.c	/^NFCSTATUS phOsalNfc_Timer_Start(uint32_t dwTimerId, uint32_t dwRegTimeCnt, pphOsalNfc_TimerCallbck_t pApplication_callback, void *pContext)$/;"	f
+phOsalNfc_Timer_Stop	tml/phOsalNfc_Timer.c	/^NFCSTATUS phOsalNfc_Timer_Stop(uint32_t dwTimerId)$/;"	f
+phTmlNfc_CleanUp	tml/phTmlNfc.c	/^static void phTmlNfc_CleanUp(void)$/;"	f
+phTmlNfc_Config	tml/phTmlNfc.h	/^typedef struct phTmlNfc_Config$/;"	s
+phTmlNfc_ConfigNciPktReTx	tml/phTmlNfc.c	/^void phTmlNfc_ConfigNciPktReTx(phTmlNfc_ConfigRetrans_t eConfiguration, uint8_t bRetryCounter)$/;"	f
+phTmlNfc_ConfigRetrans_t	tml/phTmlNfc.h	/^} phTmlNfc_ConfigRetrans_t ;  \/* Configuration for Retransmission *\/$/;"	t	typeref:enum:__anon4
+phTmlNfc_Config_t	tml/phTmlNfc.h	/^} phTmlNfc_Config_t,*pphTmlNfc_Config_t;    \/* pointer to phTmlNfc_Config_t *\/$/;"	t	typeref:struct:phTmlNfc_Config
+phTmlNfc_Context	tml/phTmlNfc.h	/^typedef struct phTmlNfc_Context$/;"	s
+phTmlNfc_Context_t	tml/phTmlNfc.h	/^} phTmlNfc_Context_t;$/;"	t	typeref:struct:phTmlNfc_Context
+phTmlNfc_ControlCode_t	tml/phTmlNfc.h	/^} phTmlNfc_ControlCode_t ;  \/* Control code for IOCTL call *\/$/;"	t	typeref:enum:__anon3
+phTmlNfc_DeferMsg_t	tml/phTmlNfc.h	/^} phTmlNfc_DeferMsg_t;                      \/* DeferMsg structure passed to User Thread *\/$/;"	t	typeref:struct:__anon5
+phTmlNfc_DeferredCall	tml/phTmlNfc.c	/^void phTmlNfc_DeferredCall(uintptr_t dwThreadId, phLibNfc_Message_t *ptWorkerMsg)$/;"	f
+phTmlNfc_Init	tml/phTmlNfc.c	/^NFCSTATUS phTmlNfc_Init(pphTmlNfc_Config_t pConfig)$/;"	f
+phTmlNfc_InitiateTimer	tml/phTmlNfc.c	/^static NFCSTATUS phTmlNfc_InitiateTimer(void)$/;"	f
+phTmlNfc_IoCtl	tml/phTmlNfc.c	/^NFCSTATUS phTmlNfc_IoCtl(phTmlNfc_ControlCode_t eControlCode)$/;"	f
+phTmlNfc_ReTxTimerCb	tml/phTmlNfc.c	/^static void phTmlNfc_ReTxTimerCb(uint32_t dwTimerId, void *pContext)$/;"	f
+phTmlNfc_Read	tml/phTmlNfc.c	/^NFCSTATUS phTmlNfc_Read(uint8_t *pBuffer, uint16_t wLength, pphTmlNfc_TransactCompletionCb_t pTmlReadComplete, void *pContext)$/;"	f
+phTmlNfc_ReadAbort	tml/phTmlNfc.c	/^NFCSTATUS phTmlNfc_ReadAbort(void)$/;"	f
+phTmlNfc_ReadDeferredCb	tml/phTmlNfc.c	/^static void phTmlNfc_ReadDeferredCb(void *pParams)$/;"	f
+phTmlNfc_ReadWriteInfo	tml/phTmlNfc.h	/^typedef struct phTmlNfc_ReadWriteInfo$/;"	s
+phTmlNfc_ReadWriteInfo_t	tml/phTmlNfc.h	/^} phTmlNfc_ReadWriteInfo_t;$/;"	t	typeref:struct:phTmlNfc_ReadWriteInfo
+phTmlNfc_Shutdown	tml/phTmlNfc.c	/^NFCSTATUS phTmlNfc_Shutdown(void)$/;"	f
+phTmlNfc_StartThread	tml/phTmlNfc.c	/^static NFCSTATUS phTmlNfc_StartThread(void)$/;"	f
+phTmlNfc_TmlThread	tml/phTmlNfc.c	/^static void phTmlNfc_TmlThread(void *pParam)$/;"	f
+phTmlNfc_TmlWriterThread	tml/phTmlNfc.c	/^static void phTmlNfc_TmlWriterThread(void *pParam)$/;"	f
+phTmlNfc_TransactInfo	tml/phTmlNfc.h	/^typedef struct phTmlNfc_TransactInfo$/;"	s
+phTmlNfc_TransactInfo_t	tml/phTmlNfc.h	/^}phTmlNfc_TransactInfo_t;           \/* Instance of Transaction structure *\/$/;"	t	typeref:struct:phTmlNfc_TransactInfo
+phTmlNfc_Write	tml/phTmlNfc.c	/^NFCSTATUS phTmlNfc_Write(uint8_t *pBuffer, uint16_t wLength, pphTmlNfc_TransactCompletionCb_t pTmlWriteComplete, void *pContext)$/;"	f
+phTmlNfc_WriteAbort	tml/phTmlNfc.c	/^NFCSTATUS phTmlNfc_WriteAbort(void)$/;"	f
+phTmlNfc_WriteDeferredCb	tml/phTmlNfc.c	/^static void phTmlNfc_WriteDeferredCb(void *pParams)$/;"	f
+phTmlNfc_e_DisableRetrans	tml/phTmlNfc.h	/^    phTmlNfc_e_DisableRetrans = 0x01 \/*Disable retransmission of Nci packet *\/$/;"	e	enum:__anon4
+phTmlNfc_e_EnableDownloadMode	tml/phTmlNfc.h	/^    phTmlNfc_e_EnableDownloadMode, \/* Do the hardware setting to enter into download mode *\/$/;"	e	enum:__anon3
+phTmlNfc_e_EnableNormalMode	tml/phTmlNfc.h	/^    phTmlNfc_e_EnableNormalMode \/* Hardware setting for normal mode of operation *\/$/;"	e	enum:__anon3
+phTmlNfc_e_EnableRetrans	tml/phTmlNfc.h	/^    phTmlNfc_e_EnableRetrans = 0x00, \/*Enable retransmission of Nci packet *\/$/;"	e	enum:__anon4
+phTmlNfc_e_Invalid	tml/phTmlNfc.h	/^    phTmlNfc_e_Invalid = 0,$/;"	e	enum:__anon3
+phTmlNfc_e_ResetDevice	tml/phTmlNfc.h	/^    phTmlNfc_e_ResetDevice = PH_TMLNFC_RESETDEVICE, \/* Reset the device *\/$/;"	e	enum:__anon3
+phTmlNfc_get_fragmentation_enabled	tml/phTmlNfc.c	/^phTmlNfc_i2cfragmentation_t phTmlNfc_get_fragmentation_enabled()$/;"	f
+phTmlNfc_i2c_close	tml/phTmlNfc_i2c.c	/^void phTmlNfc_i2c_close(void *pDevHandle)$/;"	f
+phTmlNfc_i2c_open_and_configure	tml/phTmlNfc_i2c.c	/^NFCSTATUS phTmlNfc_i2c_open_and_configure(pphTmlNfc_Config_t pConfig, void ** pLinkHandle)$/;"	f
+phTmlNfc_i2c_read	tml/phTmlNfc_i2c.c	/^int phTmlNfc_i2c_read(void *pDevHandle, uint8_t * pBuffer, int nNbBytesToRead)$/;"	f
+phTmlNfc_i2c_reset	tml/phTmlNfc_i2c.c	/^int phTmlNfc_i2c_reset(void *pDevHandle, long level)$/;"	f
+phTmlNfc_i2c_write	tml/phTmlNfc_i2c.c	/^int phTmlNfc_i2c_write(void *pDevHandle, uint8_t * pBuffer, int nNbBytesToWrite)$/;"	f
+phTmlNfc_i2cfragmentation_t	tml/phTmlNfc.h	/^} phTmlNfc_i2cfragmentation_t;$/;"	t	typeref:enum:__anon6
+phTmlNfc_set_fragmentation_enabled	tml/phTmlNfc.c	/^void phTmlNfc_set_fragmentation_enabled(phTmlNfc_i2cfragmentation_t result)$/;"	f
+phUtilNfc_CheckForAvailableTimer	tml/phOsalNfc_Timer.c	/^uint32_t phUtilNfc_CheckForAvailableTimer(void)$/;"	f
+pn547_dev_t	inc/phNxpNciHal_Adaptation.h	/^} pn547_dev_t;$/;"	t	typeref:struct:__anon7
+poll_timer_fired	hal/phNxpNciHal_NfcDepSWPrio.c	/^static int poll_timer_fired = 0x00;$/;"	v
+postMsgSemaphore	tml/phTmlNfc.h	/^    sem_t   postMsgSemaphore; \/* Semaphore to post message atomically by Reader & writer thread *\/$/;"	m	struct:phTmlNfc_Context
+pphDnldNfc_Buff_t	dnld/phDnldNfc.h	/^}phDnldNfc_Buff_t, *pphDnldNfc_Buff_t; \/* pointer to #phDnldNfc_Buff_t *\/$/;"	t	typeref:struct:phDnldNfc_Buff
+pphDnldNfc_DlContext_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_DlContext_t,*pphDnldNfc_DlContext_t; \/* pointer to #phDnldNfc_DlContext_t structure *\/$/;"	t	typeref:struct:phDnldNfc_DlContext
+pphDnldNfc_FrameInfo_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_FrameInfo_t,*pphDnldNfc_FrameInfo_t; \/* pointer to #phDnldNfc_FrameInfo_t *\/$/;"	t	typeref:struct:phDnldNfc_FrameInfo
+pphDnldNfc_FrameInput_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_FrameInput_t, *pphDnldNfc_FrameInput_t;\/* pointer to #phDnldNfc_FrameInput_t *\/$/;"	t	typeref:struct:phDnldNfc_FrameInput
+pphDnldNfc_RWInfo_t	dnld/phDnldNfc_Internal.h	/^}phDnldNfc_RWInfo_t, *pphDnldNfc_RWInfo_t;\/* pointer to #phDnldNfc_RWInfo_t *\/$/;"	t	typeref:struct:phDnldNfc_RWInfo
+pphDnldNfc_RspCb_t	dnld/phDnldNfc.h	/^typedef void (*pphDnldNfc_RspCb_t)(void* pContext, NFCSTATUS wStatus,void* pInfo);$/;"	t
+pphLibNfc_DeferredCallback_t	common/phNfcTypes.h	/^typedef  void (*pphLibNfc_DeferredCallback_t) (void*);$/;"	t
+pphLibNfc_DeferredParameter_t	common/phNfcTypes.h	/^typedef  void *pphLibNfc_DeferredParameter_t;$/;"	t
+pphLibNfc_Message_t	common/phNfcTypes.h	/^} phLibNfc_Message_t,*pphLibNfc_Message_t;$/;"	t	typeref:struct:phLibNfc_Message
+pphLibNfc_sConfig_t	common/phNfcTypes.h	/^} phLibNfc_sConfig_t, *pphLibNfc_sConfig_t;$/;"	t	typeref:struct:phLibNfc_sConfig
+pphOsalNfc_Config_t	common/phNfcCommon.h	/^}phOsalNfc_Config_t, *pphOsalNfc_Config_t \/* Pointer to #phOsalNfc_Config_t *\/;$/;"	t	typeref:struct:phOsalNfc_Config
+pphOsalNfc_DeferFuncPointer_t	common/phNfcCommon.h	/^typedef  void (*pphOsalNfc_DeferFuncPointer_t) (void*);$/;"	t
+pphOsalNfc_TimerCallbck_t	tml/phOsalNfc_Timer.h	/^typedef void (*pphOsalNfc_TimerCallbck_t)(uint32_t TimerId, void *pContext);$/;"	t
+pphOsalNfc_TimerHandle_t	common/phNfcCommon.h	/^}phOsalNfc_TimerHandle_t,*pphOsalNfc_TimerHandle_t;     \/* Variables for Structure Instance and Structure Ptr *\/$/;"	t	typeref:struct:phOsalNfc_TimerHandle
+pphTmlNfc_Config_t	tml/phTmlNfc.h	/^} phTmlNfc_Config_t,*pphTmlNfc_Config_t;    \/* pointer to phTmlNfc_Config_t *\/$/;"	t	typeref:struct:phTmlNfc_Config
+pphTmlNfc_DeferFuncPointer_t	tml/phTmlNfc.h	/^typedef  void (*pphTmlNfc_DeferFuncPointer_t) (uint32_t dwMsgPostedThread,void *pParams);$/;"	t
+pphTmlNfc_TransactCompletionCb_t	tml/phTmlNfc.h	/^typedef void (*pphTmlNfc_TransactCompletionCb_t) (void *pContext, phTmlNfc_TransactInfo_t *pInfo);$/;"	t
+prbs_test_data	self-test/phNxpNciHal_SelfTest.c	/^static nci_test_data_t prbs_test_data[] = {$/;"	v
+profile_type	hal/phNxpNciHal.h	/^    phNxpNciProfile_t profile_type;$/;"	m	struct:phNxpNciProfile_Control
+readConfig	utils/phNxpConfig.cpp	/^bool CNfcConfig::readConfig(const char* name, bool bResetContent)$/;"	f	class:CNfcConfig
+readOptionalConfig	utils/phNxpConfig.cpp	/^void readOptionalConfig(const char* extra)$/;"	f
+read_retry	hal/phNxpNciHal.c	/^void read_retry()$/;"	f
+read_retry_cnt	hal/phNxpNciHal.h	/^    uint8_t read_retry_cnt;$/;"	m	struct:phNxpNciHal_Control
+readerThread	tml/phTmlNfc.h	/^    pthread_t readerThread; \/*Handle to the thread which handles write and read operations *\/$/;"	m	struct:phTmlNfc_Context
+reentrance_mutex	utils/phNxpNciHal_utils.h	/^    pthread_mutex_t reentrance_mutex;$/;"	m	struct:phNxpNciHal_Monitor
+resetNxpConfig	utils/phNxpConfig.cpp	/^extern "C" void resetNxpConfig()$/;"	f
+retry_cnt	hal/phNxpNciHal.h	/^    uint16_t retry_cnt;$/;"	m	struct:phNxpNciHal_Control
+rf_deactivate_cmd	hal/phNxpNciHal_Kovio.c	/^static uint8_t rf_deactivate_cmd[]   = { 0x21, 0x06, 0x01, 0x03 }; \/* discovery *\/$/;"	v
+rf_deactivated_ntf	hal/phNxpNciHal_Kovio.c	/^static uint8_t rf_deactivated_ntf[]  = { 0x61, 0x06, 0x02, 0x03, 0x01 };$/;"	v
+rf_field_off_test_data	self-test/phNxpNciHal_SelfTest.c	/^static nci_test_data_t rf_field_off_test_data[] = {$/;"	v
+rf_field_on_test_data	self-test/phNxpNciHal_SelfTest.c	/^static nci_test_data_t rf_field_on_test_data[] = {$/;"	v
+rsp_len	hal/phNxpNciHal.h	/^    uint16_t rsp_len;$/;"	m	struct:phNxpNciHal_Control
+rsp_validator	self-test/phNxpNciHal_SelfTest.c	/^    st_validator_t rsp_validator;$/;"	m	struct:nci_test_data
+rxSemaphore	tml/phTmlNfc.h	/^    sem_t   rxSemaphore;$/;"	m	struct:phTmlNfc_Context
+rx_data_len	hal/phNxpNciHal.h	/^    uint16_t rx_data_len;$/;"	m	struct:phNxpNciHal_Control
+sRecvData	common/phNfcTypes.h	/^    phNfc_sData_t                   sRecvData; \/* Recv data *\/$/;"	m	struct:phNfc_sTransceiveInfo
+sSendData	common/phNfcTypes.h	/^    phNfc_sData_t                   sSendData; \/* Send data *\/$/;"	m	struct:phNfc_sTransceiveInfo
+sem	utils/phNxpNciHal_utils.h	/^    sem_t sem;$/;"	m	struct:phNxpNciHal_Sem
+sem_list	utils/phNxpNciHal_utils.h	/^    struct listHead sem_list;$/;"	m	struct:phNxpNciHal_Monitor	typeref:struct:phNxpNciHal_Monitor::listHead
+send_to_upper_kovio	hal/phNxpNciHal_Kovio.c	/^int send_to_upper_kovio = 0x01;$/;"	v
+setEEModeDone	hal/phNxpNciHal_ext.c	/^static uint8_t setEEModeDone = 0x00;$/;"	v
+st_validator_null	self-test/phNxpNciHal_SelfTest.c	/^static uint8_t st_validator_null(nci_data_t *exp, phTmlNfc_TransactInfo_t *act)$/;"	f
+st_validator_t	self-test/phNxpNciHal_SelfTest.c	/^typedef uint8_t (*st_validator_t)(nci_data_t *exp, phTmlNfc_TransactInfo_t *act);$/;"	t
+st_validator_testAntenna_AgcVal	self-test/phNxpNciHal_SelfTest.c	/^static uint8_t st_validator_testAntenna_AgcVal(nci_data_t *exp, phTmlNfc_TransactInfo_t *act)$/;"	f
+st_validator_testAntenna_AgcVal_Differential	self-test/phNxpNciHal_SelfTest.c	/^static uint8_t st_validator_testAntenna_AgcVal_Differential(nci_data_t *exp, phTmlNfc_TransactInfo_t *act)$/;"	f
+st_validator_testAntenna_AgcVal_FixedNfcLd	self-test/phNxpNciHal_SelfTest.c	/^static uint8_t st_validator_testAntenna_AgcVal_FixedNfcLd(nci_data_t *exp, phTmlNfc_TransactInfo_t *act)$/;"	f
+st_validator_testAntenna_Txldo	self-test/phNxpNciHal_SelfTest.c	/^static uint8_t st_validator_testAntenna_Txldo(nci_data_t *exp, phTmlNfc_TransactInfo_t *act)$/;"	f
+st_validator_testEquals	self-test/phNxpNciHal_SelfTest.c	/^static uint8_t st_validator_testEquals(nci_data_t *exp, phTmlNfc_TransactInfo_t *act)$/;"	f
+st_validator_testSWP1_vltg	self-test/phNxpNciHal_SelfTest.c	/^static uint8_t st_validator_testSWP1_vltg(nci_data_t *exp, phTmlNfc_TransactInfo_t *act)$/;"	f
+state	utils/phNxpConfig.cpp	/^    unsigned long   state;$/;"	m	class:CNfcConfig
+status	utils/phNxpNciHal_utils.h	/^    NFCSTATUS status;$/;"	m	struct:phNxpNciHal_Sem
+str_len	utils/phNxpConfig.cpp	/^    size_t        str_len() const   {return m_str_value.length();}$/;"	f	class:CNfcParam
+str_value	utils/phNxpConfig.cpp	/^    const char*   str_value() const {return m_str_value.c_str();}$/;"	f	class:CNfcParam
+swp1_test_data	self-test/phNxpNciHal_SelfTest.c	/^static nci_test_data_t swp1_test_data[] = {$/;"	v
+swp2_test_data	self-test/phNxpNciHal_SelfTest.c	/^static nci_test_data_t swp2_test_data[] = {$/;"	v
+tCmdId	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_CmdId_t       tCmdId;                \/* Cmd Id of the currently processed cmd *\/$/;"	m	struct:phDnldNfc_DlContext
+tCmdRspFrameInfo	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_FrameInfo_t   tCmdRspFrameInfo;      \/* Buffer to hold the cmd\/resp frame except pipeline write *\/$/;"	m	struct:phDnldNfc_DlContext
+tCurrEvent	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_Event_t       tCurrEvent;            \/* Current event being processed *\/$/;"	m	struct:phDnldNfc_DlContext
+tCurrState	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_State_t       tCurrState;            \/* Current state being processed *\/$/;"	m	struct:phDnldNfc_DlContext
+tDeferedCallInfo	common/phNfcCommon.h	/^    phOsalNfc_DeferedCallInfo_t tDeferedCallInfo;       \/* Deferred Call structure to Invoke Callback function *\/$/;"	m	struct:phOsalNfc_TimerHandle
+tDnldInProgress	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_Transition_t  tDnldInProgress;       \/* Flag to indicate if download request is ongoing *\/$/;"	m	struct:phDnldNfc_DlContext
+tLastStatus	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_Status_t      tLastStatus;           \/* saved status to distinguish signature or pltform recovery *\/$/;"	m	struct:phDnldNfc_DlContext
+tLogParams	dnld/phNxpNciHal_Dnld.c	/^    phLibNfc_EELogParams_t       tLogParams;     \/* holds the params that could be logged to reserved EE address *\/$/;"	m	struct:__anon1
+tOsalMessage	common/phNfcCommon.h	/^    phLibNfc_Message_t tOsalMessage;                    \/* Osal Timer message posted on User Thread *\/$/;"	m	struct:phOsalNfc_TimerHandle
+tPipeLineWrFrameInfo	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_FrameInfo_t   tPipeLineWrFrameInfo;  \/* Buffer to hold the pipelined write frame *\/$/;"	m	struct:phDnldNfc_DlContext
+tRWInfo	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_RWInfo_t      tRWInfo;               \/* Read\/Write segmented frame info *\/$/;"	m	struct:phDnldNfc_DlContext
+tReadInfo	tml/phTmlNfc.h	/^    phTmlNfc_ReadWriteInfo_t tReadInfo; \/*Pointer to Reader Thread Structure *\/$/;"	m	struct:phTmlNfc_Context
+tRspBuffInfo	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_Buff_t        tRspBuffInfo;          \/* Buffer to store payload field of the received response*\/$/;"	m	struct:phDnldNfc_DlContext
+tTKey	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_Buff_t        tTKey;                 \/* Defualt Transport Key provided by caller *\/$/;"	m	struct:phDnldNfc_DlContext
+tUserData	dnld/phDnldNfc_Internal.h	/^    phDnldNfc_Buff_t        tUserData;             \/* Data buffer provided by caller *\/$/;"	m	struct:phDnldNfc_DlContext
+tWriteInfo	tml/phTmlNfc.h	/^    phTmlNfc_ReadWriteInfo_t tWriteInfo; \/*Pointer to Writer Thread Structure *\/$/;"	m	struct:phTmlNfc_Context
+thread_running	hal/phNxpNciHal.h	/^    uint8_t   thread_running; \/* Thread running if set to 1, else set to 0 *\/$/;"	m	struct:phNxpNciHal_Control
+thread_running	self-test/phNxpNciHal_SelfTest.c	/^static int thread_running = 0;$/;"	v
+timeoutTimerId	hal/phNxpNciHal.c	/^uint32_t timeoutTimerId = 0;$/;"	v
+timeoutTimerId	self-test/phNxpNciHal_SelfTest.c	/^static uint32_t timeoutTimerId = 0;$/;"	v
+tml_log_level	log/phNxpLog.h	/^    uint8_t tml_log_level;$/;"	m	struct:nci_log_level
+tmp_thread	hal/phNxpNciHal_NfcDepSWPrio.c	/^void *tmp_thread(void *tmp)$/;"	f
+transport_config_path	utils/phNxpConfig.cpp	/^const char transport_config_path[] = "\/etc\/";$/;"	v
+transport_config_path	utils/phNxpConfig.cpp	/^const char transport_config_path[] = "res\/";$/;"	v
+txSemaphore	tml/phTmlNfc.h	/^    sem_t   txSemaphore; \/* Lock\/Aquire txRx Semaphore *\/$/;"	m	struct:phTmlNfc_Context
+updateNxpConfigTimestamp	utils/phNxpConfig.cpp	/^extern "C" int updateNxpConfigTimestamp()$/;"	f
+updateTimestamp	utils/phNxpConfig.cpp	/^int CNfcConfig::updateTimestamp()$/;"	f	class:CNfcConfig
+utf8_t	common/phNfcTypes.h	/^typedef uint8_t             utf8_t;       \/* UTF8 Character String *\/$/;"	t
+wAgcDifferentialWithOpen1	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wAgcDifferentialWithOpen1;    \/*Agc Differential With Open 1*\/$/;"	m	struct:phAntenna_St_Resp
+wAgcDifferentialWithOpen2	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wAgcDifferentialWithOpen2;    \/*Agc Differential With Open 2*\/$/;"	m	struct:phAntenna_St_Resp
+wAgcDifferentialWithOpenTolerance1	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wAgcDifferentialWithOpenTolerance1;    \/*Agc Differential With Open Tolerance 1*\/$/;"	m	struct:phAntenna_St_Resp
+wAgcDifferentialWithOpenTolerance2	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wAgcDifferentialWithOpenTolerance2;    \/*Agc Differential With Open Tolerance 2*\/$/;"	m	struct:phAntenna_St_Resp
+wAgcValue	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wAgcValue;    \/*Agc Min Value*\/$/;"	m	struct:phAntenna_St_Resp
+wAgcValueTolerance	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wAgcValueTolerance;    \/*Txdo Measured Range*\/$/;"	m	struct:phAntenna_St_Resp
+wAgcValuewithfixedNFCLD	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wAgcValuewithfixedNFCLD;    \/*Agc Value with Fixed NFCLD Max *\/$/;"	m	struct:phAntenna_St_Resp
+wAgcValuewithfixedNFCLDTolerance	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wAgcValuewithfixedNFCLDTolerance;    \/*Agc Value with Fixed NFCLD Tolerance *\/$/;"	m	struct:phAntenna_St_Resp
+wBytesRead	dnld/phDnldNfc_Internal.h	/^    uint16_t  wBytesRead;            \/* Bytes read from read cmd currently *\/$/;"	m	struct:phDnldNfc_RWInfo
+wBytesToSendRecv	dnld/phDnldNfc_Internal.h	/^    uint16_t  wBytesToSendRecv;      \/* Num of Bytes being written\/read currently *\/$/;"	m	struct:phDnldNfc_RWInfo
+wCmdSendStatus	dnld/phDnldNfc_Internal.h	/^    NFCSTATUS  wCmdSendStatus;                     \/* Holds the status of cmd request made to cmd handler *\/$/;"	m	struct:phDnldNfc_DlContext
+wCurrFwVer	dnld/phNxpNciHal_Dnld.c	/^    uint16_t     wCurrFwVer;        \/* Holds current FW version on the chip *\/$/;"	m	struct:phLibNfc_EELogParams
+wCurrMwVer	dnld/phNxpNciHal_Dnld.c	/^    uint16_t     wCurrMwVer;        \/* Holds current MW version on the chip *\/$/;"	m	struct:phLibNfc_EELogParams
+wDnldFailCnt	dnld/phNxpNciHal_Dnld.c	/^    uint16_t     wDnldFailCnt;      \/* holds the number of times dnld has failed,will be reset on success *\/$/;"	m	struct:phLibNfc_EELogParams
+wFwVer	dnld/phDnldNfc.c	/^uint16_t wFwVer = 0; \/* Firmware version no *\/$/;"	v
+wFwVerRsp	hal/phNxpNciHal.c	/^uint32_t wFwVerRsp;$/;"	v
+wLen	dnld/phDnldNfc.h	/^    uint16_t wLen;                   \/*Buffer length*\/$/;"	m	struct:phDnldNfc_Buff
+wLength	tml/phTmlNfc.h	/^    uint16_t            wLength;    \/* Data size of the Transaction*\/$/;"	m	struct:phTmlNfc_TransactInfo
+wLength	tml/phTmlNfc.h	/^    uint16_t wLength; \/*Length of data read\/written *\/$/;"	m	struct:phTmlNfc_ReadWriteInfo
+wMwVer	dnld/phDnldNfc.c	/^uint16_t wMwVer = 0; \/* Middleware version no *\/$/;"	v
+wNumDnldFail	dnld/phNxpNciHal_Dnld.c	/^    uint16_t     wNumDnldFail;      \/* Total number of times dnld has Failed *\/$/;"	m	struct:phLibNfc_EELogParams
+wNumDnldSuccess	dnld/phNxpNciHal_Dnld.c	/^    uint16_t     wNumDnldSuccess;   \/* Total number of times dnld has been successful *\/$/;"	m	struct:phLibNfc_EELogParams
+wNumDnldTrig	dnld/phNxpNciHal_Dnld.c	/^    uint16_t     wNumDnldTrig;      \/* Total number of times dnld has been attempted *\/$/;"	m	struct:phLibNfc_EELogParams
+wOffset	dnld/phDnldNfc_Internal.h	/^    uint16_t  wOffset;               \/* current offset within the user buffer to read\/write *\/$/;"	m	struct:phDnldNfc_RWInfo
+wRWPldSize	dnld/phDnldNfc_Internal.h	/^    uint16_t  wRWPldSize;            \/* Size of the read\/write payload per transaction *\/$/;"	m	struct:phDnldNfc_RWInfo
+wRemBytes	dnld/phDnldNfc_Internal.h	/^    uint16_t  wRemBytes;             \/* Remaining bytes to read\/write *\/$/;"	m	struct:phDnldNfc_RWInfo
+wRemChunkBytes	dnld/phDnldNfc_Internal.h	/^    uint16_t  wRemChunkBytes;        \/* Remaining bytes within the chunked frame *\/$/;"	m	struct:phDnldNfc_RWInfo
+wStatus	tml/phTmlNfc.h	/^    NFCSTATUS           wStatus;    \/* Status of the Transaction Completion*\/$/;"	m	struct:phTmlNfc_TransactInfo
+wTimerExpStatus	dnld/phDnldNfc_Internal.h	/^    NFCSTATUS  wTimerExpStatus;               \/* Holds the status code on timer expiry *\/$/;"	m	struct:phDnldNfc_RspTimerInfo
+wTxdoMeasuredRangeMax	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wTxdoMeasuredRangeMax;    \/*Txdo Measured Range Min *\/$/;"	m	struct:phAntenna_St_Resp
+wTxdoMeasuredRangeMin	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wTxdoMeasuredRangeMin;    \/*Txdo Measured Range Max *\/$/;"	m	struct:phAntenna_St_Resp
+wTxdoMeasuredTolerance	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wTxdoMeasuredTolerance;    \/*Txdo Measured Range Tolerance *\/$/;"	m	struct:phAntenna_St_Resp
+wTxdoRawValue	inc/phNxpNciHal_SelfTest.h	/^    uint16_t            wTxdoRawValue;$/;"	m	struct:phAntenna_St_Resp
+wWorkStatus	tml/phTmlNfc.h	/^    NFCSTATUS wWorkStatus; \/*Status of the transaction performed *\/$/;"	m	struct:phTmlNfc_ReadWriteInfo
+writerThread	tml/phTmlNfc.h	/^    pthread_t writerThread;$/;"	m	struct:phTmlNfc_Context
+~CNfcConfig	utils/phNxpConfig.cpp	/^CNfcConfig::~CNfcConfig()$/;"	f	class:CNfcConfig
+~CNfcParam	utils/phNxpConfig.cpp	/^CNfcParam::~CNfcParam()$/;"	f	class:CNfcParam
